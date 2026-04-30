@@ -1,14 +1,19 @@
 ============================
-📋 Clipboard Indicator
+📋 Clipboard Indicator (vipinus fork)
 ============================
 
-.. image:: https://raw.githubusercontent.com/andyholmes/gnome-shell-extensions-badge/eb9af9a1c6f04eb060cb01de6aeb5c84232cd8c0/get-it-on-ego.svg?sanitize=true
-   :target: https://extensions.gnome.org/extension/779/clipboard-indicator/
-   :width: 180
-   :alt: Get it on GNOME Extensions
+   ⚠️ **This is an unofficial fork** of `Tudmotu's Clipboard Indicator
+   <https://github.com/Tudmotu/gnome-shell-extension-clipboard-indicator>`_,
+   maintained by `vipinus <https://github.com/vipinus>`_.
 
-The most popular, reliable and feature-rich clipboard manager for GNOME with
-over **1M** downloads.
+   The fork adds **GNOME 50 support**, **complete translations for all 24
+   bundled languages**, modernized GJS APIs, and search-path performance
+   improvements. The original extension is © Yotam Bar-On and is licensed
+   under MIT — see ``LICENSE.rst``. Please use the upstream extension for
+   the official version.
+
+A reliable, feature-rich clipboard manager for GNOME, originally with over
+**1M** downloads on the upstream listing.
 
 |Screenshot|
 
@@ -42,11 +47,11 @@ In-Menu Keyboard Controls
 
 Installation via git is performed by cloning the repo into your local gnome-shell extensions directory (usually :code:`~/.local/share/gnome-shell/extensions/`)::
 
-    $ git clone https://github.com/Tudmotu/gnome-shell-extension-clipboard-indicator.git <extensions-dir>/clipboard-indicator@tudmotu.com
+    $ git clone https://github.com/vipinus/gnome-shell-extension-clipboard-indicator.git <extensions-dir>/clipboard-indicator@vipinus.github.com
 
 After cloning the repo, the extension is practically installed yet disabled. In order to enable it, run the following command::
 
-    $ gnome-extensions enable clipboard-indicator@tudmotu.com
+    $ gnome-extensions enable clipboard-indicator@vipinus.github.com
 
 
 ✅ GNOME Version Support
