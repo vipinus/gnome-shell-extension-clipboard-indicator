@@ -6,10 +6,10 @@
         "49",
         "50"
     ],
-    "uuid": "clipboard-indicator@ddxs.github.com",
-    "name": "Clipboard Indicator (ddxs fork)",
-    "description": "Clipboard manager for GNOME — ddxs fork with GNOME 50 support",
-    "url": "https://github.com/ddxs/gnome-shell-extension-clipboard-indicator",
+    "uuid": "clipboard-indicator@vipin.github.com",
+    "name": "Clipboard Indicator (vipin fork)",
+    "description": "Clipboard manager for GNOME — vipin fork with GNOME 50 support",
+    "url": "https://github.com/vipin/gnome-shell-extension-clipboard-indicator",
     "gettext-domain": "clipboard-indicator",
     "settings-schema": "org.gnome.shell.extensions.clipboard-indicator"
 }
