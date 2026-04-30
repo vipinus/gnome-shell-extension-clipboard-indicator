@@ -46,10 +46,10 @@ export class Registry {
         let contents = new GLib.Bytes(json);
 
         // Make sure dir exists
-        GLib.mkdir_with_parents(this.REGISTRY_DIR, parseInt('0775', 8));
+        GLib.mkdir_with_parents(this.REGISTRY_DIR, 0o775);
 
         // Write contents to file asynchronously
-        let file = Gio.file_new_for_path(this.REGISTRY_PATH);
+        let file = Gio.File.new_for_path(this.REGISTRY_PATH);
         file.replace_async(null, false, Gio.FileCreateFlags.NONE,
                             GLib.PRIORITY_DEFAULT, null, (obj, res) => {
 
@@ -67,7 +67,7 @@ export class Registry {
     async read () {
         return new Promise(resolve => {
             if (GLib.file_test(this.REGISTRY_PATH, FileTest.EXISTS)) {
-                let file = Gio.file_new_for_path(this.REGISTRY_PATH);
+                let file = Gio.File.new_for_path(this.REGISTRY_PATH);
                 let CACHE_FILE_SIZE = this.settings.get_int(PrefsFields.CACHE_FILE_SIZE);
 
                 file.query_info_async('*', FileQueryInfoFlags.NONE,
@@ -77,7 +77,7 @@ export class Registry {
                     let file_info = src.query_info_finish(res);
 
                     if (file_info.get_size() >= CACHE_FILE_SIZE * 1024 * 1024) {
-                        let destination = Gio.file_new_for_path(this.BACKUP_REGISTRY_PATH);
+                        let destination = Gio.File.new_for_path(this.BACKUP_REGISTRY_PATH);
 
                         file.move(destination, FileCopyFlags.OVERWRITE, null, null);
                         resolve([]);
@@ -144,7 +144,7 @@ export class Registry {
             await this.writeEntryFile(entry);
         }
 
-        const gicon = Gio.icon_new_for_string(this.getEntryFilename(entry));
+        const gicon = Gio.Icon.new_for_string(this.getEntryFilename(entry));
         const stIcon = new St.Icon({ gicon });
         return stIcon;
     }
@@ -156,7 +156,7 @@ export class Registry {
     async writeEntryFile (entry) {
         if (this.#entryFileExists(entry)) return;
 
-        let file = Gio.file_new_for_path(this.getEntryFilename(entry));
+        let file = Gio.File.new_for_path(this.getEntryFilename(entry));
 
         return new Promise(resolve => {
             file.replace_async(null, false, Gio.FileCreateFlags.NONE,
@@ -176,7 +176,7 @@ export class Registry {
     }
 
     async deleteEntryFile (entry) {
-        const file = Gio.file_new_for_path(this.getEntryFilename(entry));
+        const file = Gio.File.new_for_path(this.getEntryFilename(entry));
 
         try {
             await file.delete_async(GLib.PRIORITY_DEFAULT, null);
@@ -190,7 +190,7 @@ export class Registry {
 
         const CANCELLABLE = null;
         try {
-            const folder = Gio.file_new_for_path(this.REGISTRY_DIR);
+            const folder = Gio.File.new_for_path(this.REGISTRY_DIR);
             const enumerator = folder.enumerate_children("", 1, CANCELLABLE);
 
             let file;
@@ -232,7 +232,7 @@ export class ClipboardEntry {
             const filename = jsonEntry.contents;
             if (!GLib.file_test(filename, FileTest.EXISTS)) return null;
 
-            let file = Gio.file_new_for_path(filename);
+            let file = Gio.File.new_for_path(filename);
 
             const contentType = await file.query_info_async('*', FileQueryInfoFlags.NONE, GLib.PRIORITY_DEFAULT, null, (obj, res) => {
                 try {
