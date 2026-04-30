@@ -6,236 +6,264 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-21 16:41+0300\n"
-"PO-Revision-Date: 2024-05-30 21:35+0200\n"
-"Last-Translator: Jose Riha <jose1711@gmail.com>\n"
+"Report-Msgid-Bugs-To: https://github.com/ddxs/gnome-shell-extension-clipboard-indicator/issues\n"
+"POT-Creation-Date: 2026-04-30 19:02-0400\n"
+"PO-Revision-Date: 2026-04-30 19:05-0400\n"
+"Last-Translator: ddxs <daigang0701@gmail.com>\n"
 "Language-Team: \n"
-"Language: sk_SK\n"
+"Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
 "X-Generator: Poedit 2.2.1\n"
 "X-Poedit-Basepath: .\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
 "X-Poedit-SearchPath-0: prefs.js\n"
 "X-Poedit-SearchPath-1: extension.js\n"
 
-#: extension.js:108
+#: extension.js:113
 msgid "Text will be here"
-msgstr "Tu bude text"
+msgstr "Text bude tu"
 
-#: extension.js:181
+#: extension.js:187
 msgid "Type here to search..."
-msgstr "Kliknite sem pre vyhľadávanie..."
+msgstr "Zadajte text pre vyhľadávanie..."
 
-#: extension.js:250 prefs.js:220
+#: extension.js:256 prefs.js:257
 msgid "Private mode"
 msgstr "Súkromný režim"
 
-#: extension.js:264 prefs.js:222
+#: extension.js:270 prefs.js:259
 msgid "Clear history"
-msgstr "Vymazanie histórie"
+msgstr "Vymazať históriu"
 
-#: extension.js:276
+#: extension.js:315
 msgid "Settings"
 msgstr "Nastavenia"
 
-#: extension.js:299
+#: extension.js:338
 msgid "Clipboard is empty"
 msgstr "Schránka je prázdna"
 
-#: extension.js:571
+#: extension.js:626
 msgid "Clear all?"
-msgstr "Vyčistiť všetko?"
+msgstr "Vymazať všetko?"
 
-#: extension.js:572
+#: extension.js:627
 msgid "Are you sure you want to delete all clipboard items?"
 msgstr "Naozaj chcete odstrániť všetky položky schránky?"
 
-#: extension.js:573
+#: extension.js:628
 msgid "This operation cannot be undone."
-msgstr "Táto akcia sa nedá odvolať."
+msgstr "Túto operáciu nie je možné vrátiť."
 
-#: extension.js:575
+#: extension.js:630
 msgid "Clear"
-msgstr "Vyčistiť"
+msgstr "Vymazať"
 
-#: extension.js:575 extension.js:740
+#: extension.js:630 extension.js:801
 msgid "Cancel"
 msgstr "Zrušiť"
 
-#: extension.js:588
+#: extension.js:645
 msgid "Clipboard history cleared"
-msgstr "História schránky vymazaná"
+msgstr "História schránky bola vymazaná"
 
-#: extension.js:739
+#: extension.js:648
+msgid "Clipboard history cleared automatically"
+msgstr "História bola vymazaná automaticky"
+
+#: extension.js:800
 msgid "Copied to clipboard"
 msgstr "Skopírované do schránky"
 
-#: prefs.js:30
+#: prefs.js:31
 msgid "History Size"
 msgstr "Veľkosť histórie"
 
-#: prefs.js:39
+#: prefs.js:40
 msgid "Preview Size (characters)"
-msgstr "Veľkosť náhľadu (v znakoch)"
+msgstr "Veľkosť náhľadu (znaky)"
 
-#: prefs.js:48
+#: prefs.js:49
 msgid "Max cache file size (MB)"
 msgstr "Max. veľkosť súboru vyrovnávacej pamäte (MB)"
 
-#: prefs.js:57
+#: prefs.js:58
 msgid "Number of characters in top bar"
-msgstr "Počet znakov v hornom riadku"
+msgstr "Počet znakov v hornej lište"
 
-#: prefs.js:66
+#: prefs.js:67
 msgid "What to show in top bar"
-msgstr "Čo zobraziť v hornom riadku"
+msgstr "Čo zobraziť v hornej lište"
 
-#: prefs.js:71
+#: prefs.js:72
 msgid "Remove down arrow in top bar"
-msgstr "Odstrániť šípku dole v hornom riadku"
+msgstr "Odstrániť šípku dole v hornej lište"
 
-#: prefs.js:75
+#: prefs.js:76
 msgid "Cache only pinned items"
-msgstr "Kešovať iba obľúbené položky"
+msgstr "Ukladať len pripnuté položky"
 
-#: prefs.js:79
+#: prefs.js:80
 msgid "Show notification on copy"
 msgstr "Zobraziť upozornenie pri kopírovaní"
 
-#: prefs.js:83
-#, fuzzy
+#: prefs.js:84
 msgid "Show notification on cycle"
-msgstr "Zobraziť upozornenie pri kopírovaní"
+msgstr "Zobraziť upozornenie pri prepínaní"
 
-#: prefs.js:87
+#: prefs.js:88
 msgid "Show confirmation on Clear History"
-msgstr "Zobraziť upozornenie pri čistení histórie"
+msgstr "Zobraziť potvrdenie pri mazaní"
 
-#: prefs.js:91
+#: prefs.js:92
 msgid "Remove whitespace around text"
-msgstr "Odstraňovať medzery pred a za textom"
+msgstr "Odstrániť medzery okolo textu"
 
-#: prefs.js:95
+#: prefs.js:96
 msgid "Move item to the top after selection"
-msgstr "Po výbere presunúť položku na začiatok zoznamu"
+msgstr "Po výbere presunúť položku hore"
 
-#: prefs.js:99
+#: prefs.js:100
 msgid "Keep selected entry after Clear History"
-msgstr "Ponechať vybranú položku po vyčistení histórie"
-
-#: prefs.js:103
-msgid "Show paste buttons"
-msgstr "Zobraziť tlačidlá na vloženie"
+msgstr "Zachovať vybranú položku po vymazaní"
 
 #: prefs.js:104
-msgid "Adds a paste button to each entry that lets you paste it directly"
-msgstr ""
-"Pridá tlačidlo na vloženie vedľa každej položky, čo vám umožní vkladať obsah "
-"priamo"
+msgid "Show paste buttons"
+msgstr "Zobraziť tlačidlá vloženia"
 
-#: prefs.js:108
-msgid "Place the pinned section on the bottom"
-msgstr "Umiestňovat sekciu obľúbených na spodok"
+#: prefs.js:105
+msgid "Adds a paste button to each entry that lets you paste it directly"
+msgstr "Pridá tlačidlo vloženia ku každej položke"
 
 #: prefs.js:109
+msgid "Place the pinned section on the bottom"
+msgstr "Pripnutú sekciu umiestniť nadol"
+
+#: prefs.js:110
 msgid "Requires restarting the extension"
 msgstr "Vyžaduje reštart rozšírenia"
 
-#: prefs.js:113
-#, fuzzy
+#: prefs.js:114
 msgid "Clear clipboard history on system reboot"
-msgstr "História schránky vymazaná"
+msgstr "Mazať históriu pri reštarte systému"
 
-#: prefs.js:117
+#: prefs.js:118
 msgid "Paste on select"
-msgstr ""
+msgstr "Vložiť pri výbere"
 
-#: prefs.js:121
+#: prefs.js:122
 msgid "Cache images"
-msgstr ""
-
-#: prefs.js:126
-msgid "Excluded Apps"
-msgstr ""
+msgstr "Ukladať obrázky do vyrovnávacej pamäte"
 
 #: prefs.js:127
-msgid "Content copied will not be saved while these apps are in focus"
-msgstr ""
+msgid "Excluded Apps"
+msgstr "Vylúčené aplikácie"
 
-#: prefs.js:146
+#: prefs.js:128
+msgid "Content copied will not be saved while these apps are in focus"
+msgstr "Skopírovaný obsah nebude uložený, keď sú tieto aplikácie aktívne"
+
+#: prefs.js:139
+msgid "Case-sensitive search"
+msgstr "Vyhľadávanie rozlišujúce veľkosť písmen"
+
+#: prefs.js:143
+msgid "Regular expression matching in search"
+msgstr "Hľadanie pomocou regulárnych výrazov"
+
+#: prefs.js:156
+msgid "Clear clipboard history on interval"
+msgstr "Pravidelne mazať históriu schránky"
+
+#: prefs.js:160
+msgid "History clear interval (in minutes)"
+msgstr "Interval mazania histórie (minúty)"
+
+#: prefs.js:172
 msgid "UI"
 msgstr "Rozhranie"
 
-#: prefs.js:147
+#: prefs.js:173
 msgid "Behavior"
-msgstr ""
+msgstr "Správanie"
 
-#: prefs.js:148
+#: prefs.js:174
 msgid "Exclusion"
-msgstr ""
+msgstr "Vylúčenie"
 
-#: prefs.js:149
+#: prefs.js:175
 msgid "Limits"
 msgstr "Limity"
 
-#: prefs.js:150
+#: prefs.js:176
 msgid "Topbar"
-msgstr "Vrchný riadok"
+msgstr "Horná lišta"
 
-#: prefs.js:151
+#: prefs.js:177
 msgid "Notifications"
 msgstr "Upozornenia"
 
-#: prefs.js:152
+#: prefs.js:178
 msgid "Shortcuts"
 msgstr "Skratky"
 
-#: prefs.js:207
+#: prefs.js:179
+msgid "Search"
+msgstr "Vyhľadávanie"
+
+#: prefs.js:244
 msgid "Icon"
 msgstr "Ikona"
 
-#: prefs.js:208
+#: prefs.js:245
 msgid "Clipboard Content"
 msgstr "Obsah schránky"
 
-#: prefs.js:209
+#: prefs.js:246
 msgid "Both"
-msgstr "Obidve"
+msgstr "Oboje"
 
-#: prefs.js:210
+#: prefs.js:247
 msgid "Neither"
-msgstr ""
+msgstr "Nič"
 
-#: prefs.js:221
+#: prefs.js:258
 msgid "Toggle the menu"
-msgstr "Prepnutie ponuky"
+msgstr "Prepnúť ponuku"
 
-#: prefs.js:223
+#: prefs.js:260
 msgid "Previous entry"
 msgstr "Predchádzajúca položka"
 
-#: prefs.js:224
+#: prefs.js:261
 msgid "Next entry"
 msgstr "Nasledujúca položka"
 
-#: prefs.js:229
+#: prefs.js:266
 msgid "Enable shortcuts"
-msgstr "Povoliť klávesové skratky"
+msgstr "Povoliť skratky"
 
-#: prefs.js:254
+#: prefs.js:291
 msgid "Disabled"
-msgstr "Vypnuté"
+msgstr "Zakázané"
 
-#: prefs.js:263
+#: prefs.js:300
 msgid "Enter shortcut"
-msgstr "Zadajte klávesovú skratku"
+msgstr "Zadajte skratku"
 
-#: prefs.js:345
+#: prefs.js:387
 msgid "Window class name, e.g. \"KeePassXC\""
-msgstr ""
+msgstr "Názov triedy okna, napr. \"KeePassXC\""
+
+#: prefs.js:399
+msgid "Choose from installed applications"
+msgstr "Vybrať z nainštalovaných aplikácií"
+
+#: prefs.js:416
+msgid "Search applications..."
+msgstr "Hľadať aplikácie..."
 
 #~ msgid "Refresh Interval (ms)"
 #~ msgstr "Interval obnovovania (ms)"

@@ -7,10 +7,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-21 16:41+0300\n"
-"PO-Revision-Date: 2024-01-27 14:47+0800\n"
-"Last-Translator: hiiiha\n"
+"Report-Msgid-Bugs-To: https://github.com/ddxs/gnome-shell-extension-clipboard-indicator/issues\n"
+"POT-Creation-Date: 2026-04-30 19:02-0400\n"
+"PO-Revision-Date: 2026-04-30 19:05-0400\n"
+"Last-Translator: ddxs <daigang0701@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -22,218 +22,249 @@ msgstr ""
 "X-Poedit-SearchPath-0: prefs.js\n"
 "X-Poedit-SearchPath-1: extension.js\n"
 
-#: extension.js:108
+#: extension.js:113
 msgid "Text will be here"
-msgstr "文本将在此处显示"
+msgstr "文本将显示在此"
 
-#: extension.js:181
+#: extension.js:187
 msgid "Type here to search..."
-msgstr "在此输入以搜索…"
+msgstr "在此输入以搜索..."
 
-#: extension.js:250 prefs.js:220
+#: extension.js:256 prefs.js:257
 msgid "Private mode"
 msgstr "隐私模式"
 
-#: extension.js:264 prefs.js:222
+#: extension.js:270 prefs.js:259
 msgid "Clear history"
-msgstr "清空历史"
+msgstr "清除历史"
 
-#: extension.js:276
+#: extension.js:315
 msgid "Settings"
 msgstr "设置"
 
-#: extension.js:299
+#: extension.js:338
 msgid "Clipboard is empty"
 msgstr "剪贴板为空"
 
-#: extension.js:571
+#: extension.js:626
 msgid "Clear all?"
-msgstr "清除所有记录吗？"
+msgstr "清除全部？"
 
-#: extension.js:572
+#: extension.js:627
 msgid "Are you sure you want to delete all clipboard items?"
 msgstr "确定要删除所有剪贴板条目吗？"
 
-#: extension.js:573
+#: extension.js:628
 msgid "This operation cannot be undone."
-msgstr "此操作不可撤销。"
+msgstr "此操作无法撤销。"
 
-#: extension.js:575
+#: extension.js:630
 msgid "Clear"
 msgstr "清除"
 
-#: extension.js:575 extension.js:740
+#: extension.js:630 extension.js:801
 msgid "Cancel"
 msgstr "取消"
 
-#: extension.js:588
+#: extension.js:645
 msgid "Clipboard history cleared"
-msgstr "剪贴板已清空"
+msgstr "剪贴板历史已清除"
 
-#: extension.js:739
+#: extension.js:648
+msgid "Clipboard history cleared automatically"
+msgstr "剪贴板历史已自动清除"
+
+#: extension.js:800
 msgid "Copied to clipboard"
 msgstr "已复制到剪贴板"
 
-#: prefs.js:30
+#: prefs.js:31
 msgid "History Size"
-msgstr "历史条数"
+msgstr "历史记录大小"
 
-#: prefs.js:39
+#: prefs.js:40
 msgid "Preview Size (characters)"
-msgstr "预览长度（字符）"
+msgstr "预览大小（字符）"
 
-#: prefs.js:48
+#: prefs.js:49
 msgid "Max cache file size (MB)"
-msgstr "最大缓存文件大小 (MB)"
+msgstr "最大缓存文件大小（MB）"
 
-#: prefs.js:57
+#: prefs.js:58
 msgid "Number of characters in top bar"
-msgstr "顶栏显示的字符数量"
+msgstr "顶栏显示字符数"
 
-#: prefs.js:66
+#: prefs.js:67
 msgid "What to show in top bar"
-msgstr "在顶栏中的显示方式"
+msgstr "顶栏显示内容"
 
-#: prefs.js:71
+#: prefs.js:72
 msgid "Remove down arrow in top bar"
-msgstr "移除顶栏中的下拉箭头"
+msgstr "移除顶栏的下拉箭头"
 
-#: prefs.js:75
+#: prefs.js:76
 msgid "Cache only pinned items"
-msgstr "仅缓存收藏条目"
+msgstr "仅缓存已固定项"
 
-#: prefs.js:79
+#: prefs.js:80
 msgid "Show notification on copy"
 msgstr "复制时显示通知"
 
-#: prefs.js:83
-#, fuzzy
+#: prefs.js:84
 msgid "Show notification on cycle"
-msgstr "复制时显示通知"
+msgstr "切换时显示通知"
 
-#: prefs.js:87
+#: prefs.js:88
 msgid "Show confirmation on Clear History"
-msgstr "清除历史时显示通知"
+msgstr "清除历史时显示确认"
 
-#: prefs.js:91
+#: prefs.js:92
 msgid "Remove whitespace around text"
-msgstr "移除文字周围的空白字符"
+msgstr "移除文本周围的空白"
 
-#: prefs.js:95
+#: prefs.js:96
 msgid "Move item to the top after selection"
-msgstr "选择后将项目移到顶部"
+msgstr "选中后将条目移至顶部"
 
-#: prefs.js:99
+#: prefs.js:100
 msgid "Keep selected entry after Clear History"
-msgstr "清除历史后保存选中条目"
+msgstr "清除后保留已选条目"
 
-#: prefs.js:103
+#: prefs.js:104
 msgid "Show paste buttons"
 msgstr "显示粘贴按钮"
 
-#: prefs.js:104
+#: prefs.js:105
 msgid "Adds a paste button to each entry that lets you paste it directly"
-msgstr "在每个条目之后显示直接粘贴按钮"
-
-#: prefs.js:108
-msgid "Place the pinned section on the bottom"
-msgstr "将收藏的内容置底"
+msgstr "为每个条目添加粘贴按钮，可直接粘贴"
 
 #: prefs.js:109
+msgid "Place the pinned section on the bottom"
+msgstr "将固定区域置于底部"
+
+#: prefs.js:110
 msgid "Requires restarting the extension"
-msgstr "需要重启此扩展"
+msgstr "需要重启扩展"
 
-#: prefs.js:113
+#: prefs.js:114
 msgid "Clear clipboard history on system reboot"
-msgstr "系统重启时清除历史记录"
+msgstr "系统重启时清除历史"
 
-#: prefs.js:117
+#: prefs.js:118
 msgid "Paste on select"
-msgstr ""
+msgstr "选择即粘贴"
 
-#: prefs.js:121
+#: prefs.js:122
 msgid "Cache images"
-msgstr ""
-
-#: prefs.js:126
-msgid "Excluded Apps"
-msgstr ""
+msgstr "缓存图像"
 
 #: prefs.js:127
-msgid "Content copied will not be saved while these apps are in focus"
-msgstr ""
+msgid "Excluded Apps"
+msgstr "排除的应用"
 
-#: prefs.js:146
+#: prefs.js:128
+msgid "Content copied will not be saved while these apps are in focus"
+msgstr "当这些应用处于焦点时，复制的内容不会被保存"
+
+#: prefs.js:139
+msgid "Case-sensitive search"
+msgstr "区分大小写搜索"
+
+#: prefs.js:143
+msgid "Regular expression matching in search"
+msgstr "使用正则表达式搜索"
+
+#: prefs.js:156
+msgid "Clear clipboard history on interval"
+msgstr "定时清除剪贴板历史"
+
+#: prefs.js:160
+msgid "History clear interval (in minutes)"
+msgstr "历史清除间隔（分钟）"
+
+#: prefs.js:172
 msgid "UI"
 msgstr "界面"
 
-#: prefs.js:147
+#: prefs.js:173
 msgid "Behavior"
 msgstr "行为"
 
-#: prefs.js:148
+#: prefs.js:174
 msgid "Exclusion"
-msgstr ""
+msgstr "排除项"
 
-#: prefs.js:149
+#: prefs.js:175
 msgid "Limits"
 msgstr "限制"
 
-#: prefs.js:150
+#: prefs.js:176
 msgid "Topbar"
 msgstr "顶栏"
 
-#: prefs.js:151
+#: prefs.js:177
 msgid "Notifications"
 msgstr "通知"
 
-#: prefs.js:152
+#: prefs.js:178
 msgid "Shortcuts"
 msgstr "快捷键"
 
-#: prefs.js:207
+#: prefs.js:179
+msgid "Search"
+msgstr "搜索"
+
+#: prefs.js:244
 msgid "Icon"
 msgstr "图标"
 
-#: prefs.js:208
+#: prefs.js:245
 msgid "Clipboard Content"
 msgstr "剪贴板内容"
 
-#: prefs.js:209
+#: prefs.js:246
 msgid "Both"
-msgstr "图标和剪贴板内容"
+msgstr "两者"
 
-#: prefs.js:210
+#: prefs.js:247
 msgid "Neither"
-msgstr "不显示"
+msgstr "都不"
 
-#: prefs.js:221
+#: prefs.js:258
 msgid "Toggle the menu"
 msgstr "切换菜单"
 
-#: prefs.js:223
+#: prefs.js:260
 msgid "Previous entry"
 msgstr "上一条"
 
-#: prefs.js:224
+#: prefs.js:261
 msgid "Next entry"
 msgstr "下一条"
 
-#: prefs.js:229
+#: prefs.js:266
 msgid "Enable shortcuts"
-msgstr "开启键盘快捷键"
+msgstr "启用快捷键"
 
-#: prefs.js:254
+#: prefs.js:291
 msgid "Disabled"
-msgstr "关闭"
+msgstr "已禁用"
 
-#: prefs.js:263
+#: prefs.js:300
 msgid "Enter shortcut"
-msgstr "输入键盘快捷键"
+msgstr "输入快捷键"
 
-#: prefs.js:345
+#: prefs.js:387
 msgid "Window class name, e.g. \"KeePassXC\""
-msgstr ""
+msgstr "窗口类名，例如 \"KeePassXC\""
+
+#: prefs.js:399
+msgid "Choose from installed applications"
+msgstr "从已安装应用中选择"
+
+#: prefs.js:416
+msgid "Search applications..."
+msgstr "搜索应用..."
 
 #~ msgid "Refresh Interval (ms)"
 #~ msgstr "刷新间隔（毫秒）"

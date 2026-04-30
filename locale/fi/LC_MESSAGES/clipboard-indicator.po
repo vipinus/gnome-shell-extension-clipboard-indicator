@@ -7,236 +7,262 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-21 16:41+0300\n"
-"PO-Revision-Date: 2017-09-06 09:53+0300\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos+l10n@iki.fi>\n"
+"Report-Msgid-Bugs-To: https://github.com/ddxs/gnome-shell-extension-clipboard-indicator/issues\n"
+"POT-Creation-Date: 2026-04-30 19:02-0400\n"
+"PO-Revision-Date: 2026-04-30 19:05-0400\n"
+"Last-Translator: ddxs <daigang0701@gmail.com>\n"
 "Language-Team: suomi <lokalisointi-lista@googlegroups.com>\n"
-"Language: \n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Gtranslator 2.91.7\n"
 
-#: extension.js:108
+#: extension.js:113
 msgid "Text will be here"
-msgstr ""
+msgstr "Teksti tulee tähän"
 
-#: extension.js:181
+#: extension.js:187
 msgid "Type here to search..."
-msgstr ""
+msgstr "Kirjoita haku tähän..."
 
-#: extension.js:250 prefs.js:220
+#: extension.js:256 prefs.js:257
 msgid "Private mode"
-msgstr "Yksityistila"
+msgstr "Yksityinen tila"
 
-#: extension.js:264 prefs.js:222
+#: extension.js:270 prefs.js:259
 msgid "Clear history"
 msgstr "Tyhjennä historia"
 
-#: extension.js:276
+#: extension.js:315
 msgid "Settings"
 msgstr "Asetukset"
 
-#: extension.js:299
-#, fuzzy
+#: extension.js:338
 msgid "Clipboard is empty"
-msgstr "Leikepöydän sisältö tyhjennetty"
+msgstr "Leikepöytä on tyhjä"
 
-#: extension.js:571
+#: extension.js:626
 msgid "Clear all?"
-msgstr ""
+msgstr "Tyhjennä kaikki?"
 
-#: extension.js:572
+#: extension.js:627
 msgid "Are you sure you want to delete all clipboard items?"
-msgstr ""
+msgstr "Haluatko varmasti poistaa kaikki leikepöydän kohteet?"
 
-#: extension.js:573
+#: extension.js:628
 msgid "This operation cannot be undone."
-msgstr ""
+msgstr "Toimintoa ei voi kumota."
 
-#: extension.js:575
+#: extension.js:630
 msgid "Clear"
-msgstr ""
+msgstr "Tyhjennä"
 
-#: extension.js:575 extension.js:740
+#: extension.js:630 extension.js:801
 msgid "Cancel"
-msgstr ""
+msgstr "Peruuta"
 
-#: extension.js:588
+#: extension.js:645
 msgid "Clipboard history cleared"
-msgstr "Leikepöydän sisältö tyhjennetty"
+msgstr "Leikepöydän historia tyhjennetty"
 
-#: extension.js:739
+#: extension.js:648
+msgid "Clipboard history cleared automatically"
+msgstr "Leikepöydän historia tyhjennetty automaattisesti"
+
+#: extension.js:800
 msgid "Copied to clipboard"
 msgstr "Kopioitu leikepöydälle"
 
-#: prefs.js:30
+#: prefs.js:31
 msgid "History Size"
 msgstr "Historian koko"
 
-#: prefs.js:39
+#: prefs.js:40
 msgid "Preview Size (characters)"
 msgstr "Esikatselun koko (merkkejä)"
 
-#: prefs.js:48
-#, fuzzy
+#: prefs.js:49
 msgid "Max cache file size (MB)"
-msgstr "Välimuistin enimmäiskoko (kt)"
+msgstr "Välimuistitiedoston enimmäiskoko (MB)"
 
-#: prefs.js:57
+#: prefs.js:58
 msgid "Number of characters in top bar"
-msgstr ""
+msgstr "Merkkien määrä yläpalkissa"
 
-#: prefs.js:66
+#: prefs.js:67
 msgid "What to show in top bar"
-msgstr ""
+msgstr "Mitä yläpalkissa näytetään"
 
-#: prefs.js:71
+#: prefs.js:72
 msgid "Remove down arrow in top bar"
-msgstr ""
+msgstr "Poista alasnuoli yläpalkista"
 
-#: prefs.js:75
+#: prefs.js:76
 msgid "Cache only pinned items"
-msgstr ""
+msgstr "Tallenna vain kiinnitetyt"
 
-#: prefs.js:79
+#: prefs.js:80
 msgid "Show notification on copy"
 msgstr "Näytä ilmoitus kopioitaessa"
 
-#: prefs.js:83
-#, fuzzy
+#: prefs.js:84
 msgid "Show notification on cycle"
-msgstr "Näytä ilmoitus kopioitaessa"
+msgstr "Näytä ilmoitus selattaessa"
 
-#: prefs.js:87
-#, fuzzy
+#: prefs.js:88
 msgid "Show confirmation on Clear History"
-msgstr "Näytä ilmoitus kopioitaessa"
+msgstr "Näytä vahvistus tyhjennyksessä"
 
-#: prefs.js:91
+#: prefs.js:92
 msgid "Remove whitespace around text"
-msgstr ""
+msgstr "Poista välilyönnit tekstin ympäriltä"
 
-#: prefs.js:95
+#: prefs.js:96
 msgid "Move item to the top after selection"
-msgstr ""
+msgstr "Siirrä ylös valinnan jälkeen"
 
-#: prefs.js:99
+#: prefs.js:100
 msgid "Keep selected entry after Clear History"
-msgstr ""
-
-#: prefs.js:103
-msgid "Show paste buttons"
-msgstr ""
+msgstr "Säilytä valittu merkintä tyhjennyksen jälkeen"
 
 #: prefs.js:104
-msgid "Adds a paste button to each entry that lets you paste it directly"
-msgstr ""
+msgid "Show paste buttons"
+msgstr "Näytä liittämispainikkeet"
 
-#: prefs.js:108
-msgid "Place the pinned section on the bottom"
-msgstr ""
+#: prefs.js:105
+msgid "Adds a paste button to each entry that lets you paste it directly"
+msgstr "Lisää liittämispainikkeen jokaiseen merkintään"
 
 #: prefs.js:109
+msgid "Place the pinned section on the bottom"
+msgstr "Siirrä kiinnitetty osio alas"
+
+#: prefs.js:110
 msgid "Requires restarting the extension"
-msgstr ""
+msgstr "Vaatii laajennuksen uudelleenkäynnistyksen"
 
-#: prefs.js:113
-#, fuzzy
+#: prefs.js:114
 msgid "Clear clipboard history on system reboot"
-msgstr "Leikepöydän sisältö tyhjennetty"
+msgstr "Tyhjennä leikepöydän historia järjestelmän käynnistyksessä"
 
-#: prefs.js:117
+#: prefs.js:118
 msgid "Paste on select"
-msgstr ""
+msgstr "Liitä valittaessa"
 
-#: prefs.js:121
+#: prefs.js:122
 msgid "Cache images"
-msgstr ""
-
-#: prefs.js:126
-msgid "Excluded Apps"
-msgstr ""
+msgstr "Tallenna kuvat välimuistiin"
 
 #: prefs.js:127
+msgid "Excluded Apps"
+msgstr "Poissuljetut sovellukset"
+
+#: prefs.js:128
 msgid "Content copied will not be saved while these apps are in focus"
 msgstr ""
+"Kopioitua sisältöä ei tallenneta, kun nämä sovellukset ovat aktiivisia"
 
-#: prefs.js:146
+#: prefs.js:139
+msgid "Case-sensitive search"
+msgstr "Kirjainkoolla on merkitystä"
+
+#: prefs.js:143
+msgid "Regular expression matching in search"
+msgstr "Säännöllisten lausekkeiden haku"
+
+#: prefs.js:156
+msgid "Clear clipboard history on interval"
+msgstr "Tyhjennä leikepöydän historia ajoittain"
+
+#: prefs.js:160
+msgid "History clear interval (in minutes)"
+msgstr "Tyhjennysväli (minuutteina)"
+
+#: prefs.js:172
 msgid "UI"
-msgstr ""
+msgstr "Käyttöliittymä"
 
-#: prefs.js:147
+#: prefs.js:173
 msgid "Behavior"
-msgstr ""
+msgstr "Käyttäytyminen"
 
-#: prefs.js:148
+#: prefs.js:174
 msgid "Exclusion"
-msgstr ""
+msgstr "Poissulkeminen"
 
-#: prefs.js:149
+#: prefs.js:175
 msgid "Limits"
-msgstr ""
+msgstr "Rajat"
 
-#: prefs.js:150
+#: prefs.js:176
 msgid "Topbar"
-msgstr ""
+msgstr "Yläpalkki"
 
-#: prefs.js:151
+#: prefs.js:177
 msgid "Notifications"
-msgstr ""
+msgstr "Ilmoitukset"
 
-#: prefs.js:152
+#: prefs.js:178
 msgid "Shortcuts"
-msgstr ""
+msgstr "Pikanäppäimet"
 
-#: prefs.js:207
+#: prefs.js:179
+msgid "Search"
+msgstr "Haku"
+
+#: prefs.js:244
 msgid "Icon"
-msgstr ""
+msgstr "Kuvake"
 
-#: prefs.js:208
+#: prefs.js:245
 msgid "Clipboard Content"
-msgstr ""
+msgstr "Leikepöydän sisältö"
 
-#: prefs.js:209
+#: prefs.js:246
 msgid "Both"
-msgstr ""
+msgstr "Molemmat"
 
-#: prefs.js:210
+#: prefs.js:247
 msgid "Neither"
-msgstr ""
+msgstr "Ei kumpikaan"
 
-#: prefs.js:221
+#: prefs.js:258
 msgid "Toggle the menu"
-msgstr "Näytä/piilota valikko"
+msgstr "Vaihda valikko"
 
-#: prefs.js:223
+#: prefs.js:260
 msgid "Previous entry"
-msgstr "Edellinen tietue"
+msgstr "Edellinen merkintä"
 
-#: prefs.js:224
+#: prefs.js:261
 msgid "Next entry"
-msgstr "Seuraava tietue"
+msgstr "Seuraava merkintä"
 
-#: prefs.js:229
-#, fuzzy
+#: prefs.js:266
 msgid "Enable shortcuts"
-msgstr "Pikanäppäimet"
+msgstr "Ota pikanäppäimet käyttöön"
 
-#: prefs.js:254
+#: prefs.js:291
 msgid "Disabled"
-msgstr ""
+msgstr "Pois käytöstä"
 
-#: prefs.js:263
-#, fuzzy
+#: prefs.js:300
 msgid "Enter shortcut"
-msgstr "Pikanäppäimet"
+msgstr "Anna pikanäppäin"
 
-#: prefs.js:345
+#: prefs.js:387
 msgid "Window class name, e.g. \"KeePassXC\""
-msgstr ""
+msgstr "Ikkunaluokan nimi, esim. \"KeePassXC\""
+
+#: prefs.js:399
+msgid "Choose from installed applications"
+msgstr "Valitse asennetuista sovelluksista"
+
+#: prefs.js:416
+msgid "Search applications..."
+msgstr "Hae sovelluksia..."
 
 #~ msgid "Refresh Interval (ms)"
 #~ msgstr "Päivitysväli (ms)"

@@ -6,237 +6,261 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-21 16:41+0300\n"
-"PO-Revision-Date: 2020-10-31 16:25+0100\n"
-"Last-Translator: Meskó Balázs <mesko.balazs@fsf.hu>\n"
+"Report-Msgid-Bugs-To: https://github.com/ddxs/gnome-shell-extension-clipboard-indicator/issues\n"
+"POT-Creation-Date: 2026-04-30 19:02-0400\n"
+"PO-Revision-Date: 2026-04-30 19:05-0400\n"
+"Last-Translator: ddxs <daigang0701@gmail.com>\n"
 "Language-Team: \n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.1\n"
 
-#: extension.js:108
+#: extension.js:113
 msgid "Text will be here"
 msgstr "A szöveg itt fog megjelenni"
 
-#: extension.js:181
+#: extension.js:187
 msgid "Type here to search..."
-msgstr "Írjon ide a kereséshez…"
+msgstr "Írjon be keresési kifejezést..."
 
-#: extension.js:250 prefs.js:220
+#: extension.js:256 prefs.js:257
 msgid "Private mode"
 msgstr "Privát mód"
 
-#: extension.js:264 prefs.js:222
+#: extension.js:270 prefs.js:259
 msgid "Clear history"
 msgstr "Előzmények törlése"
 
-#: extension.js:276
+#: extension.js:315
 msgid "Settings"
 msgstr "Beállítások"
 
-#: extension.js:299
-#, fuzzy
+#: extension.js:338
 msgid "Clipboard is empty"
-msgstr "Vágólap tartalma"
+msgstr "A vágólap üres"
 
-#: extension.js:571
+#: extension.js:626
 msgid "Clear all?"
-msgstr "Összes törlése?"
+msgstr "Mindent töröl?"
 
-#: extension.js:572
+#: extension.js:627
 msgid "Are you sure you want to delete all clipboard items?"
-msgstr "Biztos, hogy törli az összes vágólapelemet?"
+msgstr "Biztosan törölni szeretne minden vágólap-elemet?"
 
-#: extension.js:573
+#: extension.js:628
 msgid "This operation cannot be undone."
 msgstr "Ez a művelet nem vonható vissza."
 
-#: extension.js:575
+#: extension.js:630
 msgid "Clear"
 msgstr "Törlés"
 
-#: extension.js:575 extension.js:740
+#: extension.js:630 extension.js:801
 msgid "Cancel"
 msgstr "Mégse"
 
-#: extension.js:588
+#: extension.js:645
 msgid "Clipboard history cleared"
-msgstr "Vágólap előzmények törölve"
+msgstr "Vágólap-előzmények törölve"
 
-#: extension.js:739
+#: extension.js:648
+msgid "Clipboard history cleared automatically"
+msgstr "Előzmények automatikusan törölve"
+
+#: extension.js:800
 msgid "Copied to clipboard"
 msgstr "Vágólapra másolva"
 
-#: prefs.js:30
+#: prefs.js:31
 msgid "History Size"
-msgstr "Előzmények száma"
+msgstr "Előzmények mérete"
 
-#: prefs.js:39
+#: prefs.js:40
 msgid "Preview Size (characters)"
 msgstr "Előnézet mérete (karakter)"
 
-#: prefs.js:48
-#, fuzzy
+#: prefs.js:49
 msgid "Max cache file size (MB)"
-msgstr "Gyorsítótár mérete (KiB)"
+msgstr "Max. gyorsítótár-fájlméret (MB)"
 
-#: prefs.js:57
+#: prefs.js:58
 msgid "Number of characters in top bar"
 msgstr "Karakterek száma a felső sávban"
 
-#: prefs.js:66
+#: prefs.js:67
 msgid "What to show in top bar"
-msgstr "Mi legyen látható a felső sávban"
+msgstr "Mit jelenítsen meg a felső sáv"
 
-#: prefs.js:71
+#: prefs.js:72
 msgid "Remove down arrow in top bar"
-msgstr "A lefelé mutató nyíl eltávolítása a felső sávból"
+msgstr "Lefelé nyíl eltávolítása a felső sávból"
 
-#: prefs.js:75
-#, fuzzy
+#: prefs.js:76
 msgid "Cache only pinned items"
-msgstr "Csak a kedvencek gyorsítótárazása"
+msgstr "Csak rögzített elemek gyorsítótárazása"
 
-#: prefs.js:79
+#: prefs.js:80
 msgid "Show notification on copy"
-msgstr "Értesítés vágólapra másoláskor"
+msgstr "Értesítés másoláskor"
 
-#: prefs.js:83
-#, fuzzy
+#: prefs.js:84
 msgid "Show notification on cycle"
-msgstr "Értesítés vágólapra másoláskor"
+msgstr "Értesítés váltáskor"
 
-#: prefs.js:87
-#, fuzzy
+#: prefs.js:88
 msgid "Show confirmation on Clear History"
-msgstr "Értesítés vágólapra másoláskor"
+msgstr "Megerősítés kérése törléskor"
 
-#: prefs.js:91
+#: prefs.js:92
 msgid "Remove whitespace around text"
 msgstr "Szóközök eltávolítása a szöveg körül"
 
-#: prefs.js:95
+#: prefs.js:96
 msgid "Move item to the top after selection"
-msgstr "Első helyre mozgatás kiválasztás után"
+msgstr "Elem mozgatása felülre kiválasztás után"
 
-#: prefs.js:99
+#: prefs.js:100
 msgid "Keep selected entry after Clear History"
-msgstr ""
-
-#: prefs.js:103
-msgid "Show paste buttons"
-msgstr ""
+msgstr "Kiválasztott bejegyzés megtartása törlés után"
 
 #: prefs.js:104
-msgid "Adds a paste button to each entry that lets you paste it directly"
-msgstr ""
+msgid "Show paste buttons"
+msgstr "Beillesztés gombok megjelenítése"
 
-#: prefs.js:108
-msgid "Place the pinned section on the bottom"
-msgstr ""
+#: prefs.js:105
+msgid "Adds a paste button to each entry that lets you paste it directly"
+msgstr "Beillesztés gomb hozzáadása minden bejegyzéshez"
 
 #: prefs.js:109
+msgid "Place the pinned section on the bottom"
+msgstr "Rögzített rész alulra"
+
+#: prefs.js:110
 msgid "Requires restarting the extension"
-msgstr ""
+msgstr "A kiterjesztés újraindítását igényli"
 
-#: prefs.js:113
-#, fuzzy
+#: prefs.js:114
 msgid "Clear clipboard history on system reboot"
-msgstr "Vágólap előzmények törölve"
+msgstr "Előzmények törlése rendszerindításkor"
 
-#: prefs.js:117
+#: prefs.js:118
 msgid "Paste on select"
-msgstr ""
+msgstr "Beillesztés kiválasztáskor"
 
-#: prefs.js:121
+#: prefs.js:122
 msgid "Cache images"
-msgstr ""
-
-#: prefs.js:126
-msgid "Excluded Apps"
-msgstr ""
+msgstr "Képek gyorsítótárazása"
 
 #: prefs.js:127
+msgid "Excluded Apps"
+msgstr "Kizárt alkalmazások"
+
+#: prefs.js:128
 msgid "Content copied will not be saved while these apps are in focus"
-msgstr ""
+msgstr "A másolt tartalom nem mentődik el, ha ezek az alkalmazások aktívak"
 
-#: prefs.js:146
+#: prefs.js:139
+msgid "Case-sensitive search"
+msgstr "Kis-/nagybetű érzékeny keresés"
+
+#: prefs.js:143
+msgid "Regular expression matching in search"
+msgstr "Reguláris kifejezés keresése"
+
+#: prefs.js:156
+msgid "Clear clipboard history on interval"
+msgstr "Vágólap-előzmények időnkénti törlése"
+
+#: prefs.js:160
+msgid "History clear interval (in minutes)"
+msgstr "Törlési időköz (percben)"
+
+#: prefs.js:172
 msgid "UI"
-msgstr ""
+msgstr "Felület"
 
-#: prefs.js:147
+#: prefs.js:173
 msgid "Behavior"
-msgstr ""
+msgstr "Viselkedés"
 
-#: prefs.js:148
+#: prefs.js:174
 msgid "Exclusion"
-msgstr ""
+msgstr "Kizárás"
 
-#: prefs.js:149
+#: prefs.js:175
 msgid "Limits"
-msgstr ""
+msgstr "Korlátok"
 
-#: prefs.js:150
+#: prefs.js:176
 msgid "Topbar"
-msgstr ""
+msgstr "Felső sáv"
 
-#: prefs.js:151
+#: prefs.js:177
 msgid "Notifications"
-msgstr ""
+msgstr "Értesítések"
 
-#: prefs.js:152
+#: prefs.js:178
 msgid "Shortcuts"
-msgstr ""
+msgstr "Gyorsbillentyűk"
 
-#: prefs.js:207
+#: prefs.js:179
+msgid "Search"
+msgstr "Keresés"
+
+#: prefs.js:244
 msgid "Icon"
 msgstr "Ikon"
 
-#: prefs.js:208
+#: prefs.js:245
 msgid "Clipboard Content"
 msgstr "Vágólap tartalma"
 
-#: prefs.js:209
+#: prefs.js:246
 msgid "Both"
 msgstr "Mindkettő"
 
-#: prefs.js:210
+#: prefs.js:247
 msgid "Neither"
-msgstr ""
+msgstr "Egyik sem"
 
-#: prefs.js:221
+#: prefs.js:258
 msgid "Toggle the menu"
-msgstr "Menü megnyitása/bezárása"
+msgstr "Menü ki/be"
 
-#: prefs.js:223
+#: prefs.js:260
 msgid "Previous entry"
-msgstr "Előző"
+msgstr "Előző bejegyzés"
 
-#: prefs.js:224
+#: prefs.js:261
 msgid "Next entry"
-msgstr "Következő"
+msgstr "Következő bejegyzés"
 
-#: prefs.js:229
-#, fuzzy
+#: prefs.js:266
 msgid "Enable shortcuts"
-msgstr "Gyorsbillentyűk"
+msgstr "Gyorsbillentyűk engedélyezése"
 
-#: prefs.js:254
+#: prefs.js:291
 msgid "Disabled"
-msgstr ""
+msgstr "Letiltva"
 
-#: prefs.js:263
-#, fuzzy
+#: prefs.js:300
 msgid "Enter shortcut"
-msgstr "Gyorsbillentyűk"
+msgstr "Adjon meg gyorsbillentyűt"
 
-#: prefs.js:345
+#: prefs.js:387
 msgid "Window class name, e.g. \"KeePassXC\""
-msgstr ""
+msgstr "Ablakosztály neve, pl. \"KeePassXC\""
+
+#: prefs.js:399
+msgid "Choose from installed applications"
+msgstr "Választás a telepített alkalmazásokból"
+
+#: prefs.js:416
+msgid "Search applications..."
+msgstr "Alkalmazások keresése..."
 
 #~ msgid "Refresh Interval (ms)"
 #~ msgstr "Frissítési időköz (ms)"

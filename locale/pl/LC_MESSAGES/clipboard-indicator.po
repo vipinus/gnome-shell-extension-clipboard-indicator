@@ -9,234 +9,262 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: unnamed project\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-21 16:41+0300\n"
-"PO-Revision-Date: 2025-09-09 20:02+0200\n"
-"Last-Translator: Adam Lewicki <a.lewick95@gmail.com>\n"
+"Report-Msgid-Bugs-To: https://github.com/ddxs/gnome-shell-extension-clipboard-indicator/issues\n"
+"POT-Creation-Date: 2026-04-30 19:02-0400\n"
+"PO-Revision-Date: 2026-04-30 19:05-0400\n"
+"Last-Translator: ddxs <daigang0701@gmail.com>\n"
 "Language-Team: Polish\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 3.7\n"
 
-#: extension.js:108
+#: extension.js:113
 msgid "Text will be here"
-msgstr "Treść będzie tutaj"
+msgstr "Tekst pojawi się tutaj"
 
-#: extension.js:181
+#: extension.js:187
 msgid "Type here to search..."
-msgstr "Wpisz tutaj, aby wyszukać..."
+msgstr "Wpisz tu, aby wyszukać..."
 
-#: extension.js:250 prefs.js:220
+#: extension.js:256 prefs.js:257
 msgid "Private mode"
 msgstr "Tryb prywatny"
 
-#: extension.js:264 prefs.js:222
+#: extension.js:270 prefs.js:259
 msgid "Clear history"
 msgstr "Wyczyść historię"
 
-#: extension.js:276
+#: extension.js:315
 msgid "Settings"
 msgstr "Ustawienia"
 
-#: extension.js:299
+#: extension.js:338
 msgid "Clipboard is empty"
 msgstr "Schowek jest pusty"
 
-#: extension.js:571
+#: extension.js:626
 msgid "Clear all?"
 msgstr "Wyczyścić wszystko?"
 
-#: extension.js:572
+#: extension.js:627
 msgid "Are you sure you want to delete all clipboard items?"
-msgstr "Czy jesteś pewien, że chcesz usunąć wszystkie elementy ze schowka?"
+msgstr "Czy na pewno chcesz usunąć wszystkie elementy schowka?"
 
-#: extension.js:573
+#: extension.js:628
 msgid "This operation cannot be undone."
-msgstr "Tej operacji nie będzie można cofnąć."
+msgstr "Tej operacji nie można cofnąć."
 
-#: extension.js:575
+#: extension.js:630
 msgid "Clear"
 msgstr "Wyczyść"
 
-#: extension.js:575 extension.js:740
+#: extension.js:630 extension.js:801
 msgid "Cancel"
 msgstr "Anuluj"
 
-#: extension.js:588
+#: extension.js:645
 msgid "Clipboard history cleared"
-msgstr "Wyczyszczono historię schowka"
+msgstr "Historia schowka wyczyszczona"
 
-#: extension.js:739
+#: extension.js:648
+msgid "Clipboard history cleared automatically"
+msgstr "Historia wyczyszczona automatycznie"
+
+#: extension.js:800
 msgid "Copied to clipboard"
 msgstr "Skopiowano do schowka"
 
-#: prefs.js:30
+#: prefs.js:31
 msgid "History Size"
 msgstr "Rozmiar historii"
 
-#: prefs.js:39
+#: prefs.js:40
 msgid "Preview Size (characters)"
 msgstr "Rozmiar podglądu (znaki)"
 
-#: prefs.js:48
+#: prefs.js:49
 msgid "Max cache file size (MB)"
-msgstr "Maksymalny rozmiar buforu (MB)"
+msgstr "Maks. rozmiar pliku bufora (MB)"
 
-#: prefs.js:57
+#: prefs.js:58
 msgid "Number of characters in top bar"
-msgstr "Liczba znaków na panelu"
+msgstr "Liczba znaków w górnym pasku"
 
-#: prefs.js:66
+#: prefs.js:67
 msgid "What to show in top bar"
-msgstr "Pokazywanie na panelu"
+msgstr "Co pokazać na górnym pasku"
 
-#: prefs.js:71
+#: prefs.js:72
 msgid "Remove down arrow in top bar"
-msgstr "Usuń strzałkę w dół na panelu"
+msgstr "Usuń strzałkę w dół z górnego paska"
 
-#: prefs.js:75
+#: prefs.js:76
 msgid "Cache only pinned items"
-msgstr "Pamięć podręczna tylko dla przypiętych elementów"
+msgstr "Buforuj tylko przypięte elementy"
 
-#: prefs.js:79
+#: prefs.js:80
 msgid "Show notification on copy"
-msgstr "Pokaż powiadomienie po skopiowaniu"
+msgstr "Pokaż powiadomienie przy kopiowaniu"
 
-#: prefs.js:83
+#: prefs.js:84
 msgid "Show notification on cycle"
-msgstr "Pokaż powiadomienie po przełączeniu"
+msgstr "Pokaż powiadomienie przy przełączaniu"
 
-#: prefs.js:87
+#: prefs.js:88
 msgid "Show confirmation on Clear History"
-msgstr "Pokaż powiadomienie po wyczyszczeniu historii"
+msgstr "Pokaż potwierdzenie przy czyszczeniu"
 
-#: prefs.js:91
+#: prefs.js:92
 msgid "Remove whitespace around text"
-msgstr "Usuń białe znaki przed/po tekście"
+msgstr "Usuń białe znaki wokół tekstu"
 
-#: prefs.js:95
+#: prefs.js:96
 msgid "Move item to the top after selection"
-msgstr "Przenieś na początek po wybraniu"
+msgstr "Przenieś element na górę po wybraniu"
 
-#: prefs.js:99
+#: prefs.js:100
 msgid "Keep selected entry after Clear History"
-msgstr "Zachowaj wybraną pozycję po wyczyszczeniu historii"
+msgstr "Zachowaj wybrany wpis po wyczyszczeniu"
 
-#: prefs.js:103
+#: prefs.js:104
 msgid "Show paste buttons"
 msgstr "Pokaż przyciski wklejania"
 
-#: prefs.js:104
+#: prefs.js:105
 msgid "Adds a paste button to each entry that lets you paste it directly"
-msgstr ""
-"Dodaje przycisk wklejania przy każdym wpisie, który pozwala wkleić go "
-"bezpośrednio"
-
-#: prefs.js:108
-msgid "Place the pinned section on the bottom"
-msgstr "Umieść sekcje z przypiętymi pozycjami na dole"
+msgstr "Dodaje przycisk wklejania do każdego wpisu"
 
 #: prefs.js:109
+msgid "Place the pinned section on the bottom"
+msgstr "Umieść sekcję przypiętą na dole"
+
+#: prefs.js:110
 msgid "Requires restarting the extension"
-msgstr "Wymaga ponownego uruchomienia rozszerzenia"
+msgstr "Wymaga restartu rozszerzenia"
 
-#: prefs.js:113
+#: prefs.js:114
 msgid "Clear clipboard history on system reboot"
-msgstr "Wyczyść historię przy uruchamianiu systemu"
+msgstr "Czyść historię przy restarcie systemu"
 
-#: prefs.js:117
+#: prefs.js:118
 msgid "Paste on select"
-msgstr "Wklej po wybraniu"
+msgstr "Wklej przy wyborze"
 
-#: prefs.js:121
+#: prefs.js:122
 msgid "Cache images"
-msgstr "Bufor obrazów"
+msgstr "Buforuj obrazy"
 
-#: prefs.js:126
+#: prefs.js:127
 msgid "Excluded Apps"
 msgstr "Wykluczone aplikacje"
 
-#: prefs.js:127
+#: prefs.js:128
 msgid "Content copied will not be saved while these apps are in focus"
 msgstr ""
-"Kopiowana treść nie zostanie zapisana, gdy te aplikacje są na pierwszym "
-"planie"
+"Skopiowana zawartość nie zostanie zapisana, gdy te aplikacje są aktywne"
 
-#: prefs.js:146
+#: prefs.js:139
+msgid "Case-sensitive search"
+msgstr "Wyszukiwanie z uwzględnieniem wielkości liter"
+
+#: prefs.js:143
+msgid "Regular expression matching in search"
+msgstr "Wyrażenia regularne w wyszukiwaniu"
+
+#: prefs.js:156
+msgid "Clear clipboard history on interval"
+msgstr "Czyść historię schowka okresowo"
+
+#: prefs.js:160
+msgid "History clear interval (in minutes)"
+msgstr "Interwał czyszczenia (w minutach)"
+
+#: prefs.js:172
 msgid "UI"
-msgstr "Interfejs użytkownika"
+msgstr "UI"
 
-#: prefs.js:147
+#: prefs.js:173
 msgid "Behavior"
 msgstr "Zachowanie"
 
-#: prefs.js:148
+#: prefs.js:174
 msgid "Exclusion"
-msgstr "Wykluczanie"
+msgstr "Wykluczenie"
 
-#: prefs.js:149
+#: prefs.js:175
 msgid "Limits"
 msgstr "Limity"
 
-#: prefs.js:150
+#: prefs.js:176
 msgid "Topbar"
-msgstr "Panel systemowy"
+msgstr "Górny pasek"
 
-#: prefs.js:151
+#: prefs.js:177
 msgid "Notifications"
 msgstr "Powiadomienia"
 
-#: prefs.js:152
+#: prefs.js:178
 msgid "Shortcuts"
-msgstr "Skróty klawiszowe"
+msgstr "Skróty"
 
-#: prefs.js:207
+#: prefs.js:179
+msgid "Search"
+msgstr "Wyszukiwanie"
+
+#: prefs.js:244
 msgid "Icon"
 msgstr "Ikona"
 
-#: prefs.js:208
+#: prefs.js:245
 msgid "Clipboard Content"
 msgstr "Zawartość schowka"
 
-#: prefs.js:209
+#: prefs.js:246
 msgid "Both"
 msgstr "Oba"
 
-#: prefs.js:210
+#: prefs.js:247
 msgid "Neither"
-msgstr "Żaden"
+msgstr "Żadne"
 
-#: prefs.js:221
+#: prefs.js:258
 msgid "Toggle the menu"
-msgstr "Pokaż zawartość schowka"
+msgstr "Przełącz menu"
 
-#: prefs.js:223
+#: prefs.js:260
 msgid "Previous entry"
-msgstr "Poprzednia pozycja"
+msgstr "Poprzedni wpis"
 
-#: prefs.js:224
+#: prefs.js:261
 msgid "Next entry"
-msgstr "Następna pozycja"
+msgstr "Następny wpis"
 
-#: prefs.js:229
+#: prefs.js:266
 msgid "Enable shortcuts"
-msgstr "Włącz skróty klawiszowe"
+msgstr "Włącz skróty"
 
-#: prefs.js:254
+#: prefs.js:291
 msgid "Disabled"
-msgstr "Wyłączony"
+msgstr "Wyłączone"
 
-#: prefs.js:263
+#: prefs.js:300
 msgid "Enter shortcut"
-msgstr "Wprowadź skrót klawiszowy"
+msgstr "Wpisz skrót"
 
-#: prefs.js:345
+#: prefs.js:387
 msgid "Window class name, e.g. \"KeePassXC\""
 msgstr "Nazwa klasy okna, np. \"KeePassXC\""
+
+#: prefs.js:399
+msgid "Choose from installed applications"
+msgstr "Wybierz z zainstalowanych aplikacji"
+
+#: prefs.js:416
+msgid "Search applications..."
+msgstr "Wyszukaj aplikacje..."
 
 #~ msgid "Add button to paste an entry"
 #~ msgstr "Dodaj przycisk, aby wkleić wpis"
@@ -261,8 +289,8 @@ msgstr "Nazwa klasy okna, np. \"KeePassXC\""
 #~ "If true, displays 'delete' buttons on each item, and a 'Clear History' "
 #~ "option"
 #~ msgstr ""
-#~ "Jeśli włączone, wyświetla przyciski „Usuń” przy każdym elemencie oraz "
-#~ "opcję „Wyczyść historię”"
+#~ "Jeśli włączone, wyświetla przyciski „Usuń” przy każdym elemencie oraz opcję "
+#~ "„Wyczyść historię”"
 
 #~ msgid "The number of items to save in history"
 #~ msgstr "Liczba elementów do zapisania w historii"
@@ -277,8 +305,8 @@ msgstr "Nazwa klasy okna, np. \"KeePassXC\""
 #~ msgstr "Liczba widocznych znaków dla elementów schowka"
 
 #~ msgid ""
-#~ "The number of characters to display for every clipboard item in the "
-#~ "history menu"
+#~ "The number of characters to display for every clipboard item in the history "
+#~ "menu"
 #~ msgstr ""
 #~ "Liczba znaków do wyświetlenia dla każdego elementu schowka w menu historii"
 
@@ -286,11 +314,9 @@ msgstr "Nazwa klasy okna, np. \"KeePassXC\""
 #~ msgstr "Liczba widocznych znaków na panelu"
 
 #~ msgid ""
-#~ "The number of characters to display for current clipboard item in the "
-#~ "topbar"
+#~ "The number of characters to display for current clipboard item in the topbar"
 #~ msgstr ""
-#~ "Liczba znaków do wyświetlenia dla bieżącego elementu schowka na górnym "
-#~ "pasku"
+#~ "Liczba znaków do wyświetlenia dla bieżącego elementu schowka na górnym pasku"
 
 #~ msgid "The allowed size for the registry cache file in MB"
 #~ msgstr "Dozwolony rozmiar pliku pamięci podręcznej rejestru w MB"
@@ -299,8 +325,8 @@ msgstr "Nazwa klasy okna, np. \"KeePassXC\""
 #~ "If the cache overflows this limit, the file will be overriden. High limit "
 #~ "might cause slowness of shell startup."
 #~ msgstr ""
-#~ "Jeśli pamięć podręczna przekroczy ten limit, plik zostanie nadpisany. "
-#~ "Wysoki limit może spowodować spowolnienie uruchamiania powłoki GNOME."
+#~ "Jeśli pamięć podręczna przekroczy ten limit, plik zostanie nadpisany. Wysoki"
+#~ " limit może spowodować spowolnienie uruchamiania powłoki GNOME."
 
 #~ msgid "Disable the registry cache file for favorites and use memory only"
 #~ msgstr ""
@@ -308,24 +334,22 @@ msgstr "Nazwa klasy okna, np. \"KeePassXC\""
 #~ "pamięci"
 
 #~ msgid ""
-#~ "Contents which are not favorites are not stored and retrieved from a "
-#~ "cache (registry.txt) file. This can avoid writing passwords to a "
-#~ "plaintext file, but at the cost of persistant history. Your clipboard "
-#~ "history, except favorite items, is lost after a gnome-shell session ends "
-#~ "or the extension is reloaded."
+#~ "Contents which are not favorites are not stored and retrieved from a cache "
+#~ "(registry.txt) file. This can avoid writing passwords to a plaintext file, "
+#~ "but at the cost of persistant history. Your clipboard history, except "
+#~ "favorite items, is lost after a gnome-shell session ends or the extension is"
+#~ " reloaded."
 #~ msgstr ""
-#~ "Zawartość, która nie jest oznaczona jako ulubiona, nie jest przechowywana "
-#~ "i pobierana z pliku pamięci podręcznej (registry.txt). Może to zapobiec "
+#~ "Zawartość, która nie jest oznaczona jako ulubiona, nie jest przechowywana i "
+#~ "pobierana z pliku pamięci podręcznej (registry.txt). Może to zapobiec "
 #~ "zapisywaniu haseł do pliku w postaci zwykłego tekstu, ale kosztem trwałej "
-#~ "historii. Historia schowka, z wyjątkiem ulubionych elementów, jest "
-#~ "tracona po zakończeniu sesji powłoki GNOME lub ponownym załadowaniu "
-#~ "rozszerzenia."
+#~ "historii. Historia schowka, z wyjątkiem ulubionych elementów, jest tracona "
+#~ "po zakończeniu sesji powłoki GNOME lub ponownym załadowaniu rozszerzenia."
 
 #~ msgid "Show notification on copy to clipboard"
 #~ msgstr "Pokaż powiadomienie po skopiowaniu do schowka"
 
-#~ msgid ""
-#~ "If true, a notification is shown when content is copied to clipboard."
+#~ msgid "If true, a notification is shown when content is copied to clipboard."
 #~ msgstr ""
 #~ "Jeśli włączone, wyświetlane jest powiadomienie, gdy zawartość zostanie "
 #~ "skopiowana do schowka."
@@ -334,15 +358,14 @@ msgstr "Nazwa klasy okna, np. \"KeePassXC\""
 #~ msgstr "Pokaż powiadomienie przy wykorzystaniu skrótu klawiszowego"
 
 #~ msgid ""
-#~ "If true, a notification is shown when cycling through the clipboard "
-#~ "entries using hotkeys."
+#~ "If true, a notification is shown when cycling through the clipboard entries "
+#~ "using hotkeys."
 #~ msgstr ""
 #~ "Jeśli włączone, powiadomienie jest pokazane po wykorzystaniu skrótów "
 #~ "klawiszowych wpisów schowka."
 
 #~ msgid "Show confirmation dialog on Clear History"
-#~ msgstr ""
-#~ "Pokaż okno dialogowe z potwierdzeniem po kliknięciu Wyczyść historię"
+#~ msgstr "Pokaż okno dialogowe z potwierdzeniem po kliknięciu Wyczyść historię"
 
 #~ msgid ""
 #~ "If true, a confirmation dialog is shown when attempting to Clear History."
@@ -363,8 +386,8 @@ msgstr "Nazwa klasy okna, np. \"KeePassXC\""
 #~ msgstr "Zachowaj wybrany element przy czyszczeniu"
 
 #~ msgid ""
-#~ "Whether to keep the currently selected entry in the clipboard after "
-#~ "clearing the history"
+#~ "Whether to keep the currently selected entry in the clipboard after clearing"
+#~ " the history"
 #~ msgstr ""
 #~ "Zachowanie aktualnie wybranego wpisu w schowku po wyczyszczeniu historii"
 
@@ -398,9 +421,6 @@ msgstr "Nazwa klasy okna, np. \"KeePassXC\""
 
 #~ msgid "Allow caching images to disk"
 #~ msgstr "Zezwalaj na buforowanie obrazów na dysku"
-
-#~ msgid "List of excluded applications"
-#~ msgstr "Lista wykluczonych aplikacji"
 
 #~ msgid "A list of applications that are excluded from clipboard history."
 #~ msgstr "Lista aplikacji, które są wykluczone z historii schowka."

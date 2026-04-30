@@ -6,226 +6,257 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-shell-extension-clipboard-indicator\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-21 16:41+0300\n"
-"PO-Revision-Date: 2024-12-20 23:19+0530\n"
-"Last-Translator: Sachin <sachin.aralapura@gmail.com>\n"
+"Report-Msgid-Bugs-To: https://github.com/ddxs/gnome-shell-extension-clipboard-indicator/issues\n"
+"POT-Creation-Date: 2026-04-30 19:02-0400\n"
+"PO-Revision-Date: 2026-04-30 19:05-0400\n"
+"Last-Translator: ddxs <daigang0701@gmail.com>\n"
 "Language-Team: Kannada <debian-l10n-kannada@lists.debian.org>\n"
 "Language: kn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: extension.js:108
+#: extension.js:113
 msgid "Text will be here"
-msgstr "ಪಠ್ಯ ಇಲ್ಲಿ ಇರುತ್ತದೆ"
+msgstr "ಪಠ್ಯ ಇಲ್ಲಿ ಬರುತ್ತದೆ"
 
-#: extension.js:181
+#: extension.js:187
 msgid "Type here to search..."
 msgstr "ಹುಡುಕಲು ಇಲ್ಲಿ ಟೈಪ್ ಮಾಡಿ..."
 
-#: extension.js:250 prefs.js:220
+#: extension.js:256 prefs.js:257
 msgid "Private mode"
 msgstr "ಖಾಸಗಿ ಮೋಡ್"
 
-#: extension.js:264 prefs.js:222
+#: extension.js:270 prefs.js:259
 msgid "Clear history"
-msgstr "ಇತಿಹಾಸವನ್ನು ಅಳಿಸಿ"
+msgstr "ಇತಿಹಾಸ ಅಳಿಸಿ"
 
-#: extension.js:276
+#: extension.js:315
 msgid "Settings"
 msgstr "ಸೆಟ್ಟಿಂಗ್‌ಗಳು"
 
-#: extension.js:299
+#: extension.js:338
 msgid "Clipboard is empty"
 msgstr "ಕ್ಲಿಪ್‌ಬೋರ್ಡ್ ಖಾಲಿಯಾಗಿದೆ"
 
-#: extension.js:571
+#: extension.js:626
 msgid "Clear all?"
-msgstr "ಎಲ್ಲಾ ಅಳಿಸಬಹುದೇ?"
+msgstr "ಎಲ್ಲವನ್ನೂ ಅಳಿಸಬೇಕೇ?"
 
-#: extension.js:572
+#: extension.js:627
 msgid "Are you sure you want to delete all clipboard items?"
-msgstr "ನೀವು ಎಲ್ಲಾ ಕ್ಲಿಪ್‌ಬೋರ್ಡ್ ಐಟಂಗಳನ್ನು ಅಳಿಸಲು ಖಚಿತವೇ?"
+msgstr "ಎಲ್ಲಾ ಕ್ಲಿಪ್‌ಬೋರ್ಡ್ ಐಟಂಗಳನ್ನು ಅಳಿಸಬೇಕೆಂದು ಖಚಿತವಾಗಿದೆಯೇ?"
 
-#: extension.js:573
+#: extension.js:628
 msgid "This operation cannot be undone."
-msgstr "ಈ ಕಾರ್ಯವನ್ನು ಹಿಂತೆಗೆದುಕೊಳ್ಳಲು ಸಾಧ್ಯವಿಲ್ಲ."
+msgstr "ಈ ಕಾರ್ಯಾಚರಣೆಯನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗದು."
 
-#: extension.js:575
+#: extension.js:630
 msgid "Clear"
 msgstr "ಅಳಿಸಿ"
 
-#: extension.js:575 extension.js:740
+#: extension.js:630 extension.js:801
 msgid "Cancel"
 msgstr "ರದ್ದುಗೊಳಿಸಿ"
 
-#: extension.js:588
+#: extension.js:645
 msgid "Clipboard history cleared"
 msgstr "ಕ್ಲಿಪ್‌ಬೋರ್ಡ್ ಇತಿಹಾಸ ಅಳಿಸಲಾಗಿದೆ"
 
-#: extension.js:739
+#: extension.js:648
+msgid "Clipboard history cleared automatically"
+msgstr "ಇತಿಹಾಸ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಅಳಿಸಲಾಗಿದೆ"
+
+#: extension.js:800
 msgid "Copied to clipboard"
 msgstr "ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ನಕಲಿಸಲಾಗಿದೆ"
 
-#: prefs.js:30
+#: prefs.js:31
 msgid "History Size"
-msgstr "ಇತಿಹಾಸದ ಗಾತ್ರ"
+msgstr "ಇತಿಹಾಸ ಗಾತ್ರ"
 
-#: prefs.js:39
+#: prefs.js:40
 msgid "Preview Size (characters)"
-msgstr "ಪೂರ್ವವೀಕ್ಷಣಾ ಗಾತ್ರ (ಅಕ್ಷರಗಳು)"
+msgstr "ಪೂರ್ವವೀಕ್ಷಣೆ ಗಾತ್ರ (ಅಕ್ಷರಗಳು)"
 
-#: prefs.js:48
+#: prefs.js:49
 msgid "Max cache file size (MB)"
-msgstr "ಗರಿಷ್ಠ ಕಾಚೆ ಫೈಲ್ ಗಾತ್ರ (MB)"
+msgstr "ಗರಿಷ್ಠ ಕ್ಯಾಶೆ ಫೈಲ್ ಗಾತ್ರ (MB)"
 
-#: prefs.js:57
+#: prefs.js:58
 msgid "Number of characters in top bar"
-msgstr "ಟಾಪ್ ಬಾರ್‌ನ ಅಕ್ಷರಗಳ ಸಂಖ್ಯೆ"
+msgstr "ಮೇಲಿನ ಪಟ್ಟಿಯಲ್ಲಿನ ಅಕ್ಷರಗಳ ಸಂಖ್ಯೆ"
 
-#: prefs.js:66
+#: prefs.js:67
 msgid "What to show in top bar"
-msgstr "ಟಾಪ್ ಬಾರ್‌ನಲ್ಲಿ ಏನು ತೋರಿಸಬೇಕು"
+msgstr "ಮೇಲಿನ ಪಟ್ಟಿಯಲ್ಲಿ ಏನು ತೋರಿಸಬೇಕು"
 
-#: prefs.js:71
+#: prefs.js:72
 msgid "Remove down arrow in top bar"
-msgstr "ಟಾಪ್ ಬಾರ್‌ನ ಕೆಳಗಿನ ಬಾಣವನ್ನು ತೆಗೆದುಹಾಕಿ"
+msgstr "ಮೇಲಿನ ಪಟ್ಟಿಯಲ್ಲಿ ಕೆಳಗಿನ ಬಾಣವನ್ನು ತೆಗೆದುಹಾಕಿ"
 
-#: prefs.js:75
+#: prefs.js:76
 msgid "Cache only pinned items"
-msgstr "ಪಿನ್ ಮಾಡಿರುವ ಐಟಂಗಳನ್ನು ಮಾತ್ರ ಕಾಶೆ ಮಾಡಿ"
+msgstr "ಪಿನ್ ಮಾಡಿದ ಐಟಂಗಳನ್ನು ಮಾತ್ರ ಸಂಗ್ರಹಿಸಿ"
 
-#: prefs.js:79
+#: prefs.js:80
 msgid "Show notification on copy"
-msgstr "ನಕಲಿಸಿದಾಗ ಅಧಿಸೂಚನೆ ತೋರಿಸಿ"
+msgstr "ನಕಲಿಸುವಾಗ ಅಧಿಸೂಚನೆ ತೋರಿಸಿ"
 
-#: prefs.js:83
-#, fuzzy
+#: prefs.js:84
 msgid "Show notification on cycle"
-msgstr "ನಕಲಿಸಿದಾಗ ಅಧಿಸೂಚನೆ ತೋರಿಸಿ"
+msgstr "ಚಕ್ರದಲ್ಲಿ ಅಧಿಸೂಚನೆ ತೋರಿಸಿ"
 
-#: prefs.js:87
+#: prefs.js:88
 msgid "Show confirmation on Clear History"
-msgstr "ಇತಿಹಾಸವನ್ನು ಅಳಿಸುವಾಗ ದೃಢೀಕರಣ ತೋರಿಸಿ"
+msgstr "ಅಳಿಸುವಾಗ ದೃಢೀಕರಣ ತೋರಿಸಿ"
 
-#: prefs.js:91
+#: prefs.js:92
 msgid "Remove whitespace around text"
-msgstr "ಪಠ್ಯದ ಸುತ್ತಲಿನ ಖಾಲಿ ಸ್ಥಳವನ್ನು ತೆಗೆದುಹಾಕಿ"
+msgstr "ಪಠ್ಯದ ಸುತ್ತಲೂ ಖಾಲಿ ಸ್ಥಳವನ್ನು ತೆಗೆದುಹಾಕಿ"
 
-#: prefs.js:95
+#: prefs.js:96
 msgid "Move item to the top after selection"
-msgstr "ಆಯ್ಕೆ ಮಾಡಿದ ನಂತರ ಐಟಂವನ್ನು ಮೇಲಕ್ಕೆ ಸರಿಸಿ"
+msgstr "ಆಯ್ಕೆಯ ನಂತರ ಐಟಂ ಅನ್ನು ಮೇಲೆ ಸರಿಸಿ"
 
-#: prefs.js:99
+#: prefs.js:100
 msgid "Keep selected entry after Clear History"
-msgstr "ಇತಿಹಾಸ ಅಳಿಸಿದ ನಂತರ ಆಯ್ಕೆ ಮಾಡಿದ ಎಂಟ್ರಿಯನ್ನು ಉಳಿಸಿ"
-
-#: prefs.js:103
-msgid "Show paste buttons"
-msgstr "ಪೇಸ್ಟ್ ಬಟನ್‌ಗಳನ್ನು ತೋರಿಸಿ"
+msgstr "ಅಳಿಸಿದ ನಂತರವೂ ಆಯ್ಕೆಮಾಡಿದ ನಮೂದನ್ನು ಇಟ್ಟುಕೊಳ್ಳಿ"
 
 #: prefs.js:104
-msgid "Adds a paste button to each entry that lets you paste it directly"
-msgstr "ಪ್ರತ್ಯೇಕ ಎಂಟ್ರಿಗೆ ನೇರವಾಗಿ ಪೇಸ್ಟ್ ಮಾಡಲು ಪೇಸ್ಟ್ ಬಟನ್ ಸೇರಿಸುತ್ತದೆ"
+msgid "Show paste buttons"
+msgstr "ಅಂಟಿಸುವ ಬಟನ್‌ಗಳನ್ನು ತೋರಿಸಿ"
 
-#: prefs.js:108
-msgid "Place the pinned section on the bottom"
-msgstr "ಪಿನ್ ಮಾಡಿರುವ ವಿಭಾಗವನ್ನು ಕೆಳಭಾಗದಲ್ಲಿ ಇರಿಸಿ"
+#: prefs.js:105
+msgid "Adds a paste button to each entry that lets you paste it directly"
+msgstr "ಪ್ರತಿ ನಮೂದಿಗೆ ಅಂಟಿಸುವ ಬಟನ್ ಸೇರಿಸುತ್ತದೆ"
 
 #: prefs.js:109
+msgid "Place the pinned section on the bottom"
+msgstr "ಪಿನ್ ಮಾಡಿದ ವಿಭಾಗವನ್ನು ಕೆಳಗೆ ಇರಿಸಿ"
+
+#: prefs.js:110
 msgid "Requires restarting the extension"
-msgstr "ವಿಸ್ತರಣೆಯನ್ನು ಮರುಪ್ರಾರಂಭಿಸಲು ಅಗತ್ಯವಿದೆ"
+msgstr "ವಿಸ್ತರಣೆಯನ್ನು ಮರುಪ್ರಾರಂಭಿಸಬೇಕು"
 
-#: prefs.js:113
-#, fuzzy
+#: prefs.js:114
 msgid "Clear clipboard history on system reboot"
-msgstr "ಕ್ಲಿಪ್‌ಬೋರ್ಡ್ ಇತಿಹಾಸ ಅಳಿಸಲಾಗಿದೆ"
+msgstr "ಸಿಸ್ಟಂ ಮರುಪ್ರಾರಂಭದಲ್ಲಿ ಇತಿಹಾಸ ಅಳಿಸಿ"
 
-#: prefs.js:117
+#: prefs.js:118
 msgid "Paste on select"
-msgstr ""
+msgstr "ಆಯ್ಕೆ ಮಾಡಿದಾಗ ಅಂಟಿಸಿ"
 
-#: prefs.js:121
+#: prefs.js:122
 msgid "Cache images"
-msgstr ""
-
-#: prefs.js:126
-msgid "Excluded Apps"
-msgstr ""
+msgstr "ಚಿತ್ರಗಳನ್ನು ಸಂಗ್ರಹಿಸಿ"
 
 #: prefs.js:127
+msgid "Excluded Apps"
+msgstr "ಹೊರತುಪಡಿಸಿದ ಅಪ್ಲಿಕೇಶನ್‌ಗಳು"
+
+#: prefs.js:128
 msgid "Content copied will not be saved while these apps are in focus"
-msgstr ""
+msgstr "ಈ ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಸಕ್ರಿಯವಾಗಿರುವಾಗ ನಕಲಿಸಿದ ವಿಷಯ ಉಳಿಸಲಾಗದು"
 
-#: prefs.js:146
+#: prefs.js:139
+msgid "Case-sensitive search"
+msgstr "ಅಕ್ಷರ ಪ್ರಕರಣ-ಸಂವೇದನಾ ಹುಡುಕಾಟ"
+
+#: prefs.js:143
+msgid "Regular expression matching in search"
+msgstr "ಹುಡುಕಾಟದಲ್ಲಿ ರೆಗ್ಯುಲರ್ ಎಕ್ಸ್‌ಪ್ರೆಶನ್"
+
+#: prefs.js:156
+msgid "Clear clipboard history on interval"
+msgstr "ಅಂತರದಲ್ಲಿ ಇತಿಹಾಸ ಅಳಿಸಿ"
+
+#: prefs.js:160
+msgid "History clear interval (in minutes)"
+msgstr "ಅಳಿಸುವಿಕೆ ಅಂತರ (ನಿಮಿಷಗಳಲ್ಲಿ)"
+
+#: prefs.js:172
 msgid "UI"
-msgstr "ಬಳಕೆದಾರ ಇಂಟರ್‌ಫೇಸ್"
+msgstr "UI"
 
-#: prefs.js:147
+#: prefs.js:173
 msgid "Behavior"
-msgstr ""
+msgstr "ವರ್ತನೆ"
 
-#: prefs.js:148
+#: prefs.js:174
 msgid "Exclusion"
-msgstr ""
+msgstr "ಹೊರತುಪಡಿಸುವಿಕೆ"
 
-#: prefs.js:149
+#: prefs.js:175
 msgid "Limits"
 msgstr "ಮಿತಿಗಳು"
 
-#: prefs.js:150
+#: prefs.js:176
 msgid "Topbar"
-msgstr "ಟಾಪ್‌ಬಾರ್"
+msgstr "ಮೇಲಿನ ಪಟ್ಟಿ"
 
-#: prefs.js:151
+#: prefs.js:177
 msgid "Notifications"
 msgstr "ಅಧಿಸೂಚನೆಗಳು"
 
-#: prefs.js:152
+#: prefs.js:178
 msgid "Shortcuts"
 msgstr "ಶಾರ್ಟ್‌ಕಟ್‌ಗಳು"
 
-#: prefs.js:207
-msgid "Icon"
-msgstr "ಚಿಹ್ನೆ"
+#: prefs.js:179
+msgid "Search"
+msgstr "ಹುಡುಕಿ"
 
-#: prefs.js:208
+#: prefs.js:244
+msgid "Icon"
+msgstr "ಐಕಾನ್"
+
+#: prefs.js:245
 msgid "Clipboard Content"
 msgstr "ಕ್ಲಿಪ್‌ಬೋರ್ಡ್ ವಿಷಯ"
 
-#: prefs.js:209
+#: prefs.js:246
 msgid "Both"
 msgstr "ಎರಡೂ"
 
-#: prefs.js:210
+#: prefs.js:247
 msgid "Neither"
 msgstr "ಯಾವುದೂ ಇಲ್ಲ"
 
-#: prefs.js:221
+#: prefs.js:258
 msgid "Toggle the menu"
-msgstr "ಮೆನು ಪರಿವರ್ತನೆ ಮಾಡಿ"
+msgstr "ಮೆನುವನ್ನು ಬದಲಿಸಿ"
 
-#: prefs.js:223
+#: prefs.js:260
 msgid "Previous entry"
-msgstr "ಹಿಂದಿನ ಎಂಟ್ರಿ"
+msgstr "ಹಿಂದಿನ ನಮೂದು"
 
-#: prefs.js:224
+#: prefs.js:261
 msgid "Next entry"
-msgstr "ಮುಂದಿನ ಎಂಟ್ರಿ"
+msgstr "ಮುಂದಿನ ನಮೂದು"
 
-#: prefs.js:229
+#: prefs.js:266
 msgid "Enable shortcuts"
 msgstr "ಶಾರ್ಟ್‌ಕಟ್‌ಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ"
 
-#: prefs.js:254
+#: prefs.js:291
 msgid "Disabled"
-msgstr "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ"
+msgstr "ನಿಷ್ಕ್ರಿಯ"
 
-#: prefs.js:263
+#: prefs.js:300
 msgid "Enter shortcut"
-msgstr "ಶಾರ್ಟ್‌ಕಟ್ ನಮೂದಿಸಿ"
+msgstr "ಶಾರ್ಟ್‌ಕಟ್ ಅನ್ನು ನಮೂದಿಸಿ"
 
-#: prefs.js:345
+#: prefs.js:387
 msgid "Window class name, e.g. \"KeePassXC\""
-msgstr ""
+msgstr "ವಿಂಡೋ ಕ್ಲಾಸ್ ಹೆಸರು, ಉದಾ. \"KeePassXC\""
+
+#: prefs.js:399
+msgid "Choose from installed applications"
+msgstr "ಸ್ಥಾಪಿಸಿದ ಅಪ್ಲಿಕೇಶನ್‌ಗಳಿಂದ ಆಯ್ಕೆ ಮಾಡಿ"
+
+#: prefs.js:416
+msgid "Search applications..."
+msgstr "ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಹುಡುಕಿ..."

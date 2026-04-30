@@ -6,237 +6,262 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-21 16:41+0300\n"
-"PO-Revision-Date: 2021-07-07 17:43+0200\n"
-"Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
+"Report-Msgid-Bugs-To: https://github.com/ddxs/gnome-shell-extension-clipboard-indicator/issues\n"
+"POT-Creation-Date: 2026-04-30 19:02-0400\n"
+"PO-Revision-Date: 2026-04-30 19:05-0400\n"
+"Last-Translator: ddxs <daigang0701@gmail.com>\n"
 "Language-Team: \n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.1\n"
 
-#: extension.js:108
+#: extension.js:113
 msgid "Text will be here"
-msgstr "Gekopieerde tekst wordt hier getoond"
+msgstr "Tekst komt hier"
 
-#: extension.js:181
+#: extension.js:187
 msgid "Type here to search..."
-msgstr "Typ om te zoeken…"
+msgstr "Typ hier om te zoeken..."
 
-#: extension.js:250 prefs.js:220
+#: extension.js:256 prefs.js:257
 msgid "Private mode"
 msgstr "Privémodus"
 
-#: extension.js:264 prefs.js:222
+#: extension.js:270 prefs.js:259
 msgid "Clear history"
 msgstr "Geschiedenis wissen"
 
-#: extension.js:276
+#: extension.js:315
 msgid "Settings"
 msgstr "Instellingen"
 
-#: extension.js:299
-#, fuzzy
+#: extension.js:338
 msgid "Clipboard is empty"
-msgstr "Klembordinhoud"
+msgstr "Klembord is leeg"
 
-#: extension.js:571
+#: extension.js:626
 msgid "Clear all?"
 msgstr "Alles wissen?"
 
-#: extension.js:572
+#: extension.js:627
 msgid "Are you sure you want to delete all clipboard items?"
-msgstr "Weet u zeker dat u alle klemborditems wilt wissen?"
+msgstr "Weet u zeker dat u alle klembord-items wilt verwijderen?"
 
-#: extension.js:573
+#: extension.js:628
 msgid "This operation cannot be undone."
-msgstr "Dit kan niet ongedaan worden gemaakt."
+msgstr "Deze actie kan niet ongedaan worden gemaakt."
 
-#: extension.js:575
+#: extension.js:630
 msgid "Clear"
 msgstr "Wissen"
 
-#: extension.js:575 extension.js:740
+#: extension.js:630 extension.js:801
 msgid "Cancel"
 msgstr "Annuleren"
 
-#: extension.js:588
+#: extension.js:645
 msgid "Clipboard history cleared"
-msgstr "De klembordgeschiedenis is gewist"
+msgstr "Klembord-geschiedenis gewist"
 
-#: extension.js:739
+#: extension.js:648
+msgid "Clipboard history cleared automatically"
+msgstr "Geschiedenis automatisch gewist"
+
+#: extension.js:800
 msgid "Copied to clipboard"
-msgstr "Gekopieerd naar het klembord"
+msgstr "Naar klembord gekopieerd"
 
-#: prefs.js:30
+#: prefs.js:31
 msgid "History Size"
-msgstr "Geschiedenisomvang"
+msgstr "Geschiedenisgrootte"
 
-#: prefs.js:39
+#: prefs.js:40
 msgid "Preview Size (characters)"
-msgstr "Voorvertoningsomvang (aantal tekens)"
+msgstr "Voorbeeldgrootte (tekens)"
 
-#: prefs.js:48
-#, fuzzy
+#: prefs.js:49
 msgid "Max cache file size (MB)"
-msgstr "Max. grootte van cachebestand (in kb)"
+msgstr "Max. cachebestandsgrootte (MB)"
 
-#: prefs.js:57
+#: prefs.js:58
 msgid "Number of characters in top bar"
-msgstr "Aantal tekens op bovenbalk"
+msgstr "Aantal tekens in de bovenbalk"
 
-#: prefs.js:66
+#: prefs.js:67
 msgid "What to show in top bar"
-msgstr "Tonen op bovenbalk:"
+msgstr "Wat in de bovenbalk tonen"
 
-#: prefs.js:71
+#: prefs.js:72
 msgid "Remove down arrow in top bar"
-msgstr "Geen uitklappijl tonen op bovenbalk"
+msgstr "Pijl-omlaag in bovenbalk verwijderen"
 
-#: prefs.js:75
-#, fuzzy
+#: prefs.js:76
 msgid "Cache only pinned items"
-msgstr "Alleen favorieten bewaren in cache"
+msgstr "Alleen vastgemaakte items cachen"
 
-#: prefs.js:79
+#: prefs.js:80
 msgid "Show notification on copy"
-msgstr "Melding tonen na kopiëren"
+msgstr "Melding tonen bij kopiëren"
 
-#: prefs.js:83
-#, fuzzy
+#: prefs.js:84
 msgid "Show notification on cycle"
-msgstr "Melding tonen na kopiëren"
+msgstr "Melding tonen bij doorbladeren"
 
-#: prefs.js:87
-#, fuzzy
+#: prefs.js:88
 msgid "Show confirmation on Clear History"
-msgstr "Melding tonen na kopiëren"
+msgstr "Bevestiging tonen bij wissen"
 
-#: prefs.js:91
+#: prefs.js:92
 msgid "Remove whitespace around text"
-msgstr "Witruimte rondom tekst wissen"
+msgstr "Witruimte rondom tekst verwijderen"
 
-#: prefs.js:95
+#: prefs.js:96
 msgid "Move item to the top after selection"
-msgstr "Item bovenaan de lijst zetten na aanklikken"
+msgstr "Item naar boven verplaatsen na selectie"
 
-#: prefs.js:99
+#: prefs.js:100
 msgid "Keep selected entry after Clear History"
-msgstr ""
-
-#: prefs.js:103
-msgid "Show paste buttons"
-msgstr ""
+msgstr "Geselecteerd item bewaren na wissen"
 
 #: prefs.js:104
-msgid "Adds a paste button to each entry that lets you paste it directly"
-msgstr ""
+msgid "Show paste buttons"
+msgstr "Plakknoppen tonen"
 
-#: prefs.js:108
-msgid "Place the pinned section on the bottom"
-msgstr ""
+#: prefs.js:105
+msgid "Adds a paste button to each entry that lets you paste it directly"
+msgstr "Voegt een plakknop toe aan elk item"
 
 #: prefs.js:109
+msgid "Place the pinned section on the bottom"
+msgstr "Vastgemaakt gedeelte onderaan"
+
+#: prefs.js:110
 msgid "Requires restarting the extension"
-msgstr ""
+msgstr "Vereist herstart van de extensie"
 
-#: prefs.js:113
-#, fuzzy
+#: prefs.js:114
 msgid "Clear clipboard history on system reboot"
-msgstr "De klembordgeschiedenis is gewist"
+msgstr "Geschiedenis wissen bij herstart"
 
-#: prefs.js:117
+#: prefs.js:118
 msgid "Paste on select"
-msgstr ""
+msgstr "Plakken bij selectie"
 
-#: prefs.js:121
+#: prefs.js:122
 msgid "Cache images"
-msgstr ""
-
-#: prefs.js:126
-msgid "Excluded Apps"
-msgstr ""
+msgstr "Afbeeldingen cachen"
 
 #: prefs.js:127
+msgid "Excluded Apps"
+msgstr "Uitgesloten apps"
+
+#: prefs.js:128
 msgid "Content copied will not be saved while these apps are in focus"
 msgstr ""
+"Gekopieerde inhoud wordt niet opgeslagen wanneer deze apps actief zijn"
 
-#: prefs.js:146
+#: prefs.js:139
+msgid "Case-sensitive search"
+msgstr "Hoofdlettergevoelig zoeken"
+
+#: prefs.js:143
+msgid "Regular expression matching in search"
+msgstr "Reguliere expressies in zoeken"
+
+#: prefs.js:156
+msgid "Clear clipboard history on interval"
+msgstr "Geschiedenis periodiek wissen"
+
+#: prefs.js:160
+msgid "History clear interval (in minutes)"
+msgstr "Wisinterval (in minuten)"
+
+#: prefs.js:172
 msgid "UI"
-msgstr ""
+msgstr "UI"
 
-#: prefs.js:147
+#: prefs.js:173
 msgid "Behavior"
-msgstr ""
+msgstr "Gedrag"
 
-#: prefs.js:148
+#: prefs.js:174
 msgid "Exclusion"
-msgstr ""
+msgstr "Uitsluiting"
 
-#: prefs.js:149
+#: prefs.js:175
 msgid "Limits"
-msgstr ""
+msgstr "Limieten"
 
-#: prefs.js:150
+#: prefs.js:176
 msgid "Topbar"
-msgstr ""
+msgstr "Bovenbalk"
 
-#: prefs.js:151
+#: prefs.js:177
 msgid "Notifications"
-msgstr ""
+msgstr "Meldingen"
 
-#: prefs.js:152
+#: prefs.js:178
 msgid "Shortcuts"
-msgstr ""
+msgstr "Sneltoetsen"
 
-#: prefs.js:207
+#: prefs.js:179
+msgid "Search"
+msgstr "Zoeken"
+
+#: prefs.js:244
 msgid "Icon"
 msgstr "Pictogram"
 
-#: prefs.js:208
+#: prefs.js:245
 msgid "Clipboard Content"
-msgstr "Klembordinhoud"
+msgstr "Klembord-inhoud"
 
-#: prefs.js:209
+#: prefs.js:246
 msgid "Both"
 msgstr "Beide"
 
-#: prefs.js:210
+#: prefs.js:247
 msgid "Neither"
-msgstr ""
+msgstr "Geen"
 
-#: prefs.js:221
+#: prefs.js:258
 msgid "Toggle the menu"
-msgstr "Menu tonen/verbergen"
+msgstr "Menu omschakelen"
 
-#: prefs.js:223
+#: prefs.js:260
 msgid "Previous entry"
 msgstr "Vorig item"
 
-#: prefs.js:224
+#: prefs.js:261
 msgid "Next entry"
 msgstr "Volgend item"
 
-#: prefs.js:229
-#, fuzzy
+#: prefs.js:266
 msgid "Enable shortcuts"
-msgstr "Sneltoetsen"
+msgstr "Sneltoetsen inschakelen"
 
-#: prefs.js:254
+#: prefs.js:291
 msgid "Disabled"
-msgstr ""
+msgstr "Uitgeschakeld"
 
-#: prefs.js:263
-#, fuzzy
+#: prefs.js:300
 msgid "Enter shortcut"
-msgstr "Sneltoetsen"
+msgstr "Voer sneltoets in"
 
-#: prefs.js:345
+#: prefs.js:387
 msgid "Window class name, e.g. \"KeePassXC\""
-msgstr ""
+msgstr "Vensterklasse-naam, bv. \"KeePassXC\""
+
+#: prefs.js:399
+msgid "Choose from installed applications"
+msgstr "Kies uit geïnstalleerde apps"
+
+#: prefs.js:416
+msgid "Search applications..."
+msgstr "Apps zoeken..."
 
 #~ msgid "Refresh Interval (ms)"
 #~ msgstr "Ververstussenpoos (in ms)"

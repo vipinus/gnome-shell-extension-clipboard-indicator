@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-23 11:43+0300\n"
-"PO-Revision-Date: 2025-05-23 11:43+0300\n"
-"Last-Translator: Il Craccatore 2011\n"
+"Report-Msgid-Bugs-To: https://github.com/ddxs/gnome-shell-extension-clipboard-indicator/issues\n"
+"POT-Creation-Date: 2026-04-30 19:02-0400\n"
+"PO-Revision-Date: 2026-04-30 19:05-0400\n"
+"Last-Translator: ddxs <daigang0701@gmail.com>\n"
 "Language-Team: none\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -17,214 +17,246 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: extension.js:108
+#: extension.js:113
 msgid "Text will be here"
-msgstr "Il testo sarà qui"
+msgstr "Il testo apparirà qui"
 
-#: extension.js:181
+#: extension.js:187
 msgid "Type here to search..."
 msgstr "Digita qui per cercare..."
 
-#: extension.js:250 prefs.js:220
+#: extension.js:256 prefs.js:257
 msgid "Private mode"
 msgstr "Modalità privata"
 
-#: extension.js:264 prefs.js:222
+#: extension.js:270 prefs.js:259
 msgid "Clear history"
-msgstr "Cancella la cronologia"
+msgstr "Cancella cronologia"
 
-#: extension.js:276
+#: extension.js:315
 msgid "Settings"
 msgstr "Impostazioni"
 
-#: extension.js:299
+#: extension.js:338
 msgid "Clipboard is empty"
-msgstr "Appunti vuoti"
+msgstr "Gli appunti sono vuoti"
 
-#: extension.js:571
+#: extension.js:626
 msgid "Clear all?"
 msgstr "Cancellare tutto?"
 
-#: extension.js:572
+#: extension.js:627
 msgid "Are you sure you want to delete all clipboard items?"
-msgstr "Sei sicuro di voler eliminare tutti gli elementi negli appunti?"
+msgstr "Sei sicuro di voler eliminare tutti gli elementi degli appunti?"
 
-#: extension.js:573
+#: extension.js:628
 msgid "This operation cannot be undone."
 msgstr "Questa operazione non può essere annullata."
 
-#: extension.js:575
+#: extension.js:630
 msgid "Clear"
 msgstr "Cancella"
 
-#: extension.js:575 extension.js:740
+#: extension.js:630 extension.js:801
 msgid "Cancel"
 msgstr "Annulla"
 
-#: extension.js:588
+#: extension.js:645
 msgid "Clipboard history cleared"
-msgstr "Cronologia cancellata"
+msgstr "Cronologia degli appunti cancellata"
 
-#: extension.js:739
+#: extension.js:648
+msgid "Clipboard history cleared automatically"
+msgstr "Cronologia cancellata automaticamente"
+
+#: extension.js:800
 msgid "Copied to clipboard"
 msgstr "Copiato negli appunti"
 
-#: prefs.js:30
+#: prefs.js:31
 msgid "History Size"
-msgstr "Dimensioni della cronologia"
+msgstr "Dimensione cronologia"
 
-#: prefs.js:39
+#: prefs.js:40
 msgid "Preview Size (characters)"
 msgstr "Dimensione anteprima (caratteri)"
 
-#: prefs.js:48
+#: prefs.js:49
 msgid "Max cache file size (MB)"
-msgstr "Dimensione massima della cache (MB)"
+msgstr "Dimensione max file cache (MB)"
 
-#: prefs.js:57
+#: prefs.js:58
 msgid "Number of characters in top bar"
 msgstr "Numero di caratteri nella barra superiore"
 
-#: prefs.js:66
+#: prefs.js:67
 msgid "What to show in top bar"
 msgstr "Cosa mostrare nella barra superiore"
 
-#: prefs.js:71
+#: prefs.js:72
 msgid "Remove down arrow in top bar"
-msgstr "Rimuove la freccia verso il basso nella barra superiore"
+msgstr "Rimuovi freccia giù nella barra superiore"
 
-#: prefs.js:75
+#: prefs.js:76
 msgid "Cache only pinned items"
-msgstr "Memorizza solo gli elementi fissati"
+msgstr "Memorizza solo gli elementi appuntati"
 
-#: prefs.js:79
+#: prefs.js:80
 msgid "Show notification on copy"
-msgstr "Mostra notifica quando si copia"
+msgstr "Mostra notifica alla copia"
 
-#: prefs.js:83
+#: prefs.js:84
 msgid "Show notification on cycle"
-msgstr "Mostra notifica per voce già copiata"
+msgstr "Mostra notifica al cambio"
 
-#: prefs.js:87
+#: prefs.js:88
 msgid "Show confirmation on Clear History"
-msgstr "Mostra conferma per cancellare la cronologia"
+msgstr "Mostra conferma alla cancellazione"
 
-#: prefs.js:91
+#: prefs.js:92
 msgid "Remove whitespace around text"
-msgstr "Rimuovi spazi bianchi attorno al testo"
+msgstr "Rimuovi spazi attorno al testo"
 
-#: prefs.js:95
+#: prefs.js:96
 msgid "Move item to the top after selection"
-msgstr "Sposta l'elemento in cima dopo la selezione"
+msgstr "Sposta in alto dopo la selezione"
 
-#: prefs.js:99
+#: prefs.js:100
 msgid "Keep selected entry after Clear History"
-msgstr "Mantieni l'elemento selezionato dopo aver cancellato la cronologia"
-
-#: prefs.js:103
-msgid "Show paste buttons"
-msgstr "Mostra i pulsanti di incolla"
+msgstr "Mantieni la voce selezionata dopo la cancellazione"
 
 #: prefs.js:104
-msgid "Adds a paste button to each entry that lets you paste it directly"
-msgstr "Aggiunge a ogni voce un pulsante Incolla per copiarla direttamente"
+msgid "Show paste buttons"
+msgstr "Mostra pulsanti incolla"
 
-#: prefs.js:108
-msgid "Place the pinned section on the bottom"
-msgstr "Posiziona la sezione fissata in fondo"
+#: prefs.js:105
+msgid "Adds a paste button to each entry that lets you paste it directly"
+msgstr "Aggiunge un pulsante incolla a ogni voce per incollarla direttamente"
 
 #: prefs.js:109
+msgid "Place the pinned section on the bottom"
+msgstr "Sezione appuntata in basso"
+
+#: prefs.js:110
 msgid "Requires restarting the extension"
 msgstr "Richiede il riavvio dell'estensione"
 
-#: prefs.js:113
+#: prefs.js:114
 msgid "Clear clipboard history on system reboot"
-msgstr "Cancella la cronologia al riavvio del sistema"
+msgstr "Cancella la cronologia al riavvio"
 
-#: prefs.js:117
+#: prefs.js:118
 msgid "Paste on select"
 msgstr "Incolla alla selezione"
 
-#: prefs.js:121
+#: prefs.js:122
 msgid "Cache images"
-msgstr "Copia le immagini"
+msgstr "Memorizza immagini in cache"
 
-#: prefs.js:126
+#: prefs.js:127
 msgid "Excluded Apps"
 msgstr "App escluse"
 
-#: prefs.js:127
+#: prefs.js:128
 msgid "Content copied will not be saved while these apps are in focus"
-msgstr "Il contenuto copiato non verrà salvato mentre queste app sono in primo piano"
+msgstr "Il contenuto copiato non sarà salvato quando queste app sono attive"
 
-#: prefs.js:146
+#: prefs.js:139
+msgid "Case-sensitive search"
+msgstr "Ricerca con distinzione tra maiuscole e minuscole"
+
+#: prefs.js:143
+msgid "Regular expression matching in search"
+msgstr "Espressioni regolari nella ricerca"
+
+#: prefs.js:156
+msgid "Clear clipboard history on interval"
+msgstr "Cancella la cronologia a intervalli"
+
+#: prefs.js:160
+msgid "History clear interval (in minutes)"
+msgstr "Intervallo di cancellazione (in minuti)"
+
+#: prefs.js:172
 msgid "UI"
 msgstr "Interfaccia"
 
-#: prefs.js:147
+#: prefs.js:173
 msgid "Behavior"
 msgstr "Comportamento"
 
-#: prefs.js:148
+#: prefs.js:174
 msgid "Exclusion"
 msgstr "Esclusione"
 
-#: prefs.js:149
+#: prefs.js:175
 msgid "Limits"
 msgstr "Limiti"
 
-#: prefs.js:150
+#: prefs.js:176
 msgid "Topbar"
 msgstr "Barra superiore"
 
-#: prefs.js:151
+#: prefs.js:177
 msgid "Notifications"
 msgstr "Notifiche"
 
-#: prefs.js:152
+#: prefs.js:178
 msgid "Shortcuts"
 msgstr "Scorciatoie"
 
-#: prefs.js:207
+#: prefs.js:179
+msgid "Search"
+msgstr "Cerca"
+
+#: prefs.js:244
 msgid "Icon"
 msgstr "Icona"
 
-#: prefs.js:208
+#: prefs.js:245
 msgid "Clipboard Content"
-msgstr "Contenuto appunti"
+msgstr "Contenuto degli appunti"
 
-#: prefs.js:209
+#: prefs.js:246
 msgid "Both"
 msgstr "Entrambi"
 
-#: prefs.js:210
+#: prefs.js:247
 msgid "Neither"
 msgstr "Nessuno"
 
-#: prefs.js:221
+#: prefs.js:258
 msgid "Toggle the menu"
-msgstr "Mostra/nascondi il menu"
+msgstr "Apri/chiudi menu"
 
-#: prefs.js:223
+#: prefs.js:260
 msgid "Previous entry"
 msgstr "Voce precedente"
 
-#: prefs.js:224
+#: prefs.js:261
 msgid "Next entry"
 msgstr "Voce successiva"
 
-#: prefs.js:229
+#: prefs.js:266
 msgid "Enable shortcuts"
 msgstr "Abilita scorciatoie"
 
-#: prefs.js:254
+#: prefs.js:291
 msgid "Disabled"
 msgstr "Disabilitato"
 
-#: prefs.js:263
+#: prefs.js:300
 msgid "Enter shortcut"
 msgstr "Inserisci scorciatoia"
 
-#: prefs.js:345
+#: prefs.js:387
 msgid "Window class name, e.g. \"KeePassXC\""
-msgstr "Nome classe della finestra, ad esempio \"KeePassXC\""
+msgstr "Nome classe finestra, es. \"KeePassXC\""
+
+#: prefs.js:399
+msgid "Choose from installed applications"
+msgstr "Scegli tra le applicazioni installate"
+
+#: prefs.js:416
+msgid "Search applications..."
+msgstr "Cerca applicazioni..."

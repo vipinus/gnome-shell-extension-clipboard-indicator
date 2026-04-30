@@ -6,236 +6,263 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-21 16:41+0300\n"
-"PO-Revision-Date: 2021-11-20 14:03+0100\n"
-"Last-Translator: Quentin PAGÈS\n"
+"Report-Msgid-Bugs-To: https://github.com/ddxs/gnome-shell-extension-clipboard-indicator/issues\n"
+"POT-Creation-Date: 2026-04-30 19:02-0400\n"
+"PO-Revision-Date: 2026-04-30 19:05-0400\n"
+"Last-Translator: ddxs <daigang0701@gmail.com>\n"
 "Language-Team: \n"
 "Language: oc\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.0\n"
 
-#: extension.js:108
+#: extension.js:113
 msgid "Text will be here"
-msgstr "Lo tèxt serà aicí"
+msgstr "Lo tèxte serà aicí"
 
-#: extension.js:181
+#: extension.js:187
 msgid "Type here to search..."
-msgstr "Picatz aquí per recercar..."
+msgstr "Picatz aicí per recercar..."
 
-#: extension.js:250 prefs.js:220
+#: extension.js:256 prefs.js:257
 msgid "Private mode"
 msgstr "Mòde privat"
 
-#: extension.js:264 prefs.js:222
+#: extension.js:270 prefs.js:259
 msgid "Clear history"
-msgstr "Escafar l’istoric"
+msgstr "Escafar l'istoric"
 
-#: extension.js:276
+#: extension.js:315
 msgid "Settings"
-msgstr "Preferéncias"
+msgstr "Paramètres"
 
-#: extension.js:299
-#, fuzzy
+#: extension.js:338
 msgid "Clipboard is empty"
-msgstr "Contengut del quichapapièrs"
+msgstr "Lo quichapapièrs es void"
 
-#: extension.js:571
+#: extension.js:626
 msgid "Clear all?"
-msgstr "Tot escafar ?"
+msgstr "Tot escafar ?"
 
-#: extension.js:572
+#: extension.js:627
 msgid "Are you sure you want to delete all clipboard items?"
-msgstr "Volètz vertadièrament suprimir totes los elements del quichapapièr ?"
+msgstr "Volètz vertadièrament suprimir totes los elements del quichapapièrs ?"
 
-#: extension.js:573
+#: extension.js:628
 msgid "This operation cannot be undone."
-msgstr "Aquò pòt pas èsser anullat."
+msgstr "Aquesta operacion pòt pas èsser anullada."
 
-#: extension.js:575
+#: extension.js:630
 msgid "Clear"
 msgstr "Escafar"
 
-#: extension.js:575 extension.js:740
+#: extension.js:630 extension.js:801
 msgid "Cancel"
 msgstr "Anullar"
 
-#: extension.js:588
+#: extension.js:645
 msgid "Clipboard history cleared"
 msgstr "Istoric del quichapapièrs escafat"
 
-#: extension.js:739
+#: extension.js:648
+msgid "Clipboard history cleared automatically"
+msgstr "Istoric escafat automaticament"
+
+#: extension.js:800
 msgid "Copied to clipboard"
 msgstr "Copiat dins lo quichapapièrs"
 
-#: prefs.js:30
+#: prefs.js:31
 msgid "History Size"
 msgstr "Talha de l'istoric"
 
-#: prefs.js:39
+#: prefs.js:40
 msgid "Preview Size (characters)"
-msgstr "Talha de la previsualizacion (caractèrs)"
+msgstr "Talha de l'apercebut (caractèrs)"
 
-#: prefs.js:48
-#, fuzzy
+#: prefs.js:49
 msgid "Max cache file size (MB)"
-msgstr "Talha maximala del fichièr de cache (ko)"
+msgstr "Talha max. del fichièr cache (MB)"
 
-#: prefs.js:57
+#: prefs.js:58
 msgid "Number of characters in top bar"
-msgstr "Nombre de caractèrs a la barra d’ennaut"
+msgstr "Nombre de caractèrs dins la barra del naut"
 
-#: prefs.js:66
+#: prefs.js:67
 msgid "What to show in top bar"
-msgstr "Qué veire a la barra d’ennaut"
+msgstr "Çò qu'afichar dins la barra del naut"
 
-#: prefs.js:71
+#: prefs.js:72
 msgid "Remove down arrow in top bar"
-msgstr "Suprimir la sageta bassa de la barra d’ennaut"
+msgstr "Suprimir la sageta cap aval dins la barra del naut"
 
-#: prefs.js:75
-#, fuzzy
+#: prefs.js:76
 msgid "Cache only pinned items"
-msgstr "Metre sonque los favorits en cache"
+msgstr "Metre en cache sonque los elements penjats"
 
-#: prefs.js:79
+#: prefs.js:80
 msgid "Show notification on copy"
-msgstr "Afichar una notificacion en copiant"
+msgstr "Mostrar notificacion a la còpia"
 
-#: prefs.js:83
-#, fuzzy
+#: prefs.js:84
 msgid "Show notification on cycle"
-msgstr "Afichar una notificacion en copiant"
+msgstr "Mostrar notificacion al cicle"
 
-#: prefs.js:87
-#, fuzzy
+#: prefs.js:88
 msgid "Show confirmation on Clear History"
-msgstr "Afichar una notificacion en copiant"
+msgstr "Mostrar confirmacion al escafament"
 
-#: prefs.js:91
+#: prefs.js:92
 msgid "Remove whitespace around text"
-msgstr "Suprimir los espacis blancs a l’entorn del tèxt"
+msgstr "Suprimir los espacis a l'entorn del tèxte"
 
-#: prefs.js:95
+#: prefs.js:96
 msgid "Move item to the top after selection"
-msgstr "Desplaçar l’element ennaut aprèp seleccion"
+msgstr "Desplaçar amont aprèp seleccion"
 
-#: prefs.js:99
+#: prefs.js:100
 msgid "Keep selected entry after Clear History"
-msgstr ""
-
-#: prefs.js:103
-msgid "Show paste buttons"
-msgstr ""
+msgstr "Servar l'entrada seleccionada aprèp escafament"
 
 #: prefs.js:104
-msgid "Adds a paste button to each entry that lets you paste it directly"
-msgstr ""
+msgid "Show paste buttons"
+msgstr "Mostrar los botons de pegada"
 
-#: prefs.js:108
-msgid "Place the pinned section on the bottom"
-msgstr ""
+#: prefs.js:105
+msgid "Adds a paste button to each entry that lets you paste it directly"
+msgstr "Apondís un boton de pegada a cada entrada"
 
 #: prefs.js:109
+msgid "Place the pinned section on the bottom"
+msgstr "Plaçar la seccion penjada en bas"
+
+#: prefs.js:110
 msgid "Requires restarting the extension"
-msgstr ""
+msgstr "Necessita lo reaviada de l'extension"
 
-#: prefs.js:113
-#, fuzzy
+#: prefs.js:114
 msgid "Clear clipboard history on system reboot"
-msgstr "Istoric del quichapapièrs escafat"
+msgstr "Escafar l'istoric al reaviada"
 
-#: prefs.js:117
+#: prefs.js:118
 msgid "Paste on select"
-msgstr ""
+msgstr "Pegar a la seleccion"
 
-#: prefs.js:121
+#: prefs.js:122
 msgid "Cache images"
-msgstr ""
-
-#: prefs.js:126
-msgid "Excluded Apps"
-msgstr ""
+msgstr "Metre las imatges en cache"
 
 #: prefs.js:127
+msgid "Excluded Apps"
+msgstr "Aplicacions exclusas"
+
+#: prefs.js:128
 msgid "Content copied will not be saved while these apps are in focus"
 msgstr ""
+"Lo contengut copiat serà pas enregistrat quand aquestas aplicacions son "
+"activas"
 
-#: prefs.js:146
+#: prefs.js:139
+msgid "Case-sensitive search"
+msgstr "Recèrca sensibla a la cassa"
+
+#: prefs.js:143
+msgid "Regular expression matching in search"
+msgstr "Expressions regularas dins la recèrca"
+
+#: prefs.js:156
+msgid "Clear clipboard history on interval"
+msgstr "Escafar l'istoric a intervals"
+
+#: prefs.js:160
+msgid "History clear interval (in minutes)"
+msgstr "Interval d'escafament (en minutas)"
+
+#: prefs.js:172
 msgid "UI"
-msgstr ""
+msgstr "Interfàcia"
 
-#: prefs.js:147
+#: prefs.js:173
 msgid "Behavior"
-msgstr ""
+msgstr "Comportament"
 
-#: prefs.js:148
+#: prefs.js:174
 msgid "Exclusion"
-msgstr ""
+msgstr "Exclusion"
 
-#: prefs.js:149
+#: prefs.js:175
 msgid "Limits"
-msgstr ""
+msgstr "Limits"
 
-#: prefs.js:150
+#: prefs.js:176
 msgid "Topbar"
-msgstr ""
+msgstr "Barra del naut"
 
-#: prefs.js:151
+#: prefs.js:177
 msgid "Notifications"
-msgstr ""
+msgstr "Notificacions"
 
-#: prefs.js:152
+#: prefs.js:178
 msgid "Shortcuts"
-msgstr ""
+msgstr "Acorchis"
 
-#: prefs.js:207
+#: prefs.js:179
+msgid "Search"
+msgstr "Recèrca"
+
+#: prefs.js:244
 msgid "Icon"
 msgstr "Icòna"
 
-#: prefs.js:208
+#: prefs.js:245
 msgid "Clipboard Content"
 msgstr "Contengut del quichapapièrs"
 
-#: prefs.js:209
+#: prefs.js:246
 msgid "Both"
 msgstr "Los dos"
 
-#: prefs.js:210
+#: prefs.js:247
 msgid "Neither"
-msgstr ""
+msgstr "Cap"
 
-#: prefs.js:221
+#: prefs.js:258
 msgid "Toggle the menu"
-msgstr "Alternar menú"
+msgstr "Bascular lo menú"
 
-#: prefs.js:223
+#: prefs.js:260
 msgid "Previous entry"
 msgstr "Entrada precedenta"
 
-#: prefs.js:224
+#: prefs.js:261
 msgid "Next entry"
 msgstr "Entrada seguenta"
 
-#: prefs.js:229
-#, fuzzy
+#: prefs.js:266
 msgid "Enable shortcuts"
-msgstr "Acorchis de clavièr"
+msgstr "Activar los acorchis"
 
-#: prefs.js:254
+#: prefs.js:291
 msgid "Disabled"
-msgstr ""
+msgstr "Desactivat"
 
-#: prefs.js:263
-#, fuzzy
+#: prefs.js:300
 msgid "Enter shortcut"
-msgstr "Acorchis de clavièr"
+msgstr "Picatz un acorchi"
 
-#: prefs.js:345
+#: prefs.js:387
 msgid "Window class name, e.g. \"KeePassXC\""
-msgstr ""
+msgstr "Nom de classa de fenèstra, ex. \"KeePassXC\""
+
+#: prefs.js:399
+msgid "Choose from installed applications"
+msgstr "Causir demest las aplicacions installadas"
+
+#: prefs.js:416
+msgid "Search applications..."
+msgstr "Recercar las aplicacions..."
 
 #~ msgid "Refresh Interval (ms)"
 #~ msgstr "Interval de refresquiment (ms)"

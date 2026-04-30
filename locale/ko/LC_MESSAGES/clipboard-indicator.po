@@ -7,226 +7,258 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-21 16:41+0300\n"
-"PO-Revision-Date: 2024-11-19 14:49+0900\n"
-"Last-Translator: \n"
+"Report-Msgid-Bugs-To: https://github.com/ddxs/gnome-shell-extension-clipboard-indicator/issues\n"
+"POT-Creation-Date: 2026-04-30 19:02-0400\n"
+"PO-Revision-Date: 2026-04-30 19:05-0400\n"
+"Last-Translator: ddxs <daigang0701@gmail.com>\n"
 "Language-Team: \n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.4.2\n"
 
-#: extension.js:108
+#: extension.js:113
 msgid "Text will be here"
 msgstr "텍스트가 여기에 표시됩니다"
 
-#: extension.js:181
+#: extension.js:187
 msgid "Type here to search..."
-msgstr "검색하려면 입력..."
+msgstr "검색하려면 여기에 입력..."
 
-#: extension.js:250 prefs.js:220
+#: extension.js:256 prefs.js:257
 msgid "Private mode"
-msgstr "프라이빗 모드"
+msgstr "비공개 모드"
 
-#: extension.js:264 prefs.js:222
+#: extension.js:270 prefs.js:259
 msgid "Clear history"
 msgstr "기록 지우기"
 
-#: extension.js:276
+#: extension.js:315
 msgid "Settings"
 msgstr "설정"
 
-#: extension.js:299
+#: extension.js:338
 msgid "Clipboard is empty"
-msgstr "클립보드가 비었습니다"
+msgstr "클립보드가 비어 있습니다"
 
-#: extension.js:571
+#: extension.js:626
 msgid "Clear all?"
-msgstr "모두 지우시겠습니까?"
+msgstr "모두 지울까요?"
 
-#: extension.js:572
+#: extension.js:627
 msgid "Are you sure you want to delete all clipboard items?"
-msgstr "모든 클립보드 항목을 지우시겠습니까?"
+msgstr "모든 클립보드 항목을 삭제하시겠습니까?"
 
-#: extension.js:573
+#: extension.js:628
 msgid "This operation cannot be undone."
-msgstr "이 동작은 되돌릴 수 없습니다."
+msgstr "이 작업은 취소할 수 없습니다."
 
-#: extension.js:575
+#: extension.js:630
 msgid "Clear"
 msgstr "지우기"
 
-#: extension.js:575 extension.js:740
+#: extension.js:630 extension.js:801
 msgid "Cancel"
 msgstr "취소"
 
-#: extension.js:588
+#: extension.js:645
 msgid "Clipboard history cleared"
-msgstr "클립보드 기록을 지움"
+msgstr "클립보드 기록을 지웠습니다"
 
-#: extension.js:739
+#: extension.js:648
+msgid "Clipboard history cleared automatically"
+msgstr "클립보드 기록이 자동으로 지워졌습니다"
+
+#: extension.js:800
 msgid "Copied to clipboard"
 msgstr "클립보드에 복사됨"
 
-#: prefs.js:30
+#: prefs.js:31
 msgid "History Size"
 msgstr "기록 크기"
 
-#: prefs.js:39
+#: prefs.js:40
 msgid "Preview Size (characters)"
-msgstr "미리보기 크기 (글자 수)"
+msgstr "미리보기 크기 (글자)"
 
-#: prefs.js:48
+#: prefs.js:49
 msgid "Max cache file size (MB)"
 msgstr "최대 캐시 파일 크기 (MB)"
 
-#: prefs.js:57
+#: prefs.js:58
 msgid "Number of characters in top bar"
-msgstr ""
+msgstr "상단 표시줄의 글자 수"
 
-#: prefs.js:66
+#: prefs.js:67
 msgid "What to show in top bar"
-msgstr ""
+msgstr "상단 표시줄에 표시할 내용"
 
-#: prefs.js:71
+#: prefs.js:72
 msgid "Remove down arrow in top bar"
-msgstr ""
+msgstr "상단 표시줄의 아래 화살표 제거"
 
-#: prefs.js:75
+#: prefs.js:76
 msgid "Cache only pinned items"
-msgstr "고정된 항목만 캐시하기"
+msgstr "고정된 항목만 캐시"
 
-#: prefs.js:79
+#: prefs.js:80
 msgid "Show notification on copy"
-msgstr ""
+msgstr "복사 시 알림 표시"
 
-#: prefs.js:83
+#: prefs.js:84
 msgid "Show notification on cycle"
-msgstr ""
+msgstr "전환 시 알림 표시"
 
-#: prefs.js:87
+#: prefs.js:88
 msgid "Show confirmation on Clear History"
-msgstr ""
+msgstr "기록 삭제 시 확인 표시"
 
-#: prefs.js:91
+#: prefs.js:92
 msgid "Remove whitespace around text"
-msgstr ""
+msgstr "텍스트 주변 공백 제거"
 
-#: prefs.js:95
+#: prefs.js:96
 msgid "Move item to the top after selection"
-msgstr ""
+msgstr "선택 후 맨 위로 이동"
 
-#: prefs.js:99
+#: prefs.js:100
 msgid "Keep selected entry after Clear History"
-msgstr ""
-
-#: prefs.js:103
-msgid "Show paste buttons"
-msgstr ""
+msgstr "기록 삭제 후 선택 항목 유지"
 
 #: prefs.js:104
-msgid "Adds a paste button to each entry that lets you paste it directly"
-msgstr ""
+msgid "Show paste buttons"
+msgstr "붙여넣기 버튼 표시"
 
-#: prefs.js:108
-msgid "Place the pinned section on the bottom"
-msgstr ""
+#: prefs.js:105
+msgid "Adds a paste button to each entry that lets you paste it directly"
+msgstr "각 항목에 붙여넣기 버튼을 추가합니다"
 
 #: prefs.js:109
+msgid "Place the pinned section on the bottom"
+msgstr "고정 섹션을 아래에 배치"
+
+#: prefs.js:110
 msgid "Requires restarting the extension"
-msgstr "확장 재시작이 필요합니다"
+msgstr "확장 프로그램 재시작이 필요합니다"
 
-#: prefs.js:113
-#, fuzzy
+#: prefs.js:114
 msgid "Clear clipboard history on system reboot"
-msgstr "클립보드 기록을 지움"
+msgstr "시스템 재부팅 시 기록 삭제"
 
-#: prefs.js:117
+#: prefs.js:118
 msgid "Paste on select"
-msgstr ""
+msgstr "선택 시 붙여넣기"
 
-#: prefs.js:121
+#: prefs.js:122
 msgid "Cache images"
-msgstr ""
-
-#: prefs.js:126
-msgid "Excluded Apps"
-msgstr ""
+msgstr "이미지 캐시"
 
 #: prefs.js:127
-msgid "Content copied will not be saved while these apps are in focus"
-msgstr ""
+msgid "Excluded Apps"
+msgstr "제외된 앱"
 
-#: prefs.js:146
+#: prefs.js:128
+msgid "Content copied will not be saved while these apps are in focus"
+msgstr "이 앱이 활성화된 동안 복사된 내용은 저장되지 않습니다"
+
+#: prefs.js:139
+msgid "Case-sensitive search"
+msgstr "대소문자 구분 검색"
+
+#: prefs.js:143
+msgid "Regular expression matching in search"
+msgstr "정규식 검색"
+
+#: prefs.js:156
+msgid "Clear clipboard history on interval"
+msgstr "주기적으로 기록 삭제"
+
+#: prefs.js:160
+msgid "History clear interval (in minutes)"
+msgstr "기록 삭제 주기 (분)"
+
+#: prefs.js:172
 msgid "UI"
 msgstr "UI"
 
-#: prefs.js:147
+#: prefs.js:173
 msgid "Behavior"
-msgstr ""
+msgstr "동작"
 
-#: prefs.js:148
+#: prefs.js:174
 msgid "Exclusion"
-msgstr ""
+msgstr "제외"
 
-#: prefs.js:149
+#: prefs.js:175
 msgid "Limits"
-msgstr ""
+msgstr "제한"
 
-#: prefs.js:150
+#: prefs.js:176
 msgid "Topbar"
-msgstr "상단바"
+msgstr "상단 표시줄"
 
-#: prefs.js:151
+#: prefs.js:177
 msgid "Notifications"
 msgstr "알림"
 
-#: prefs.js:152
+#: prefs.js:178
 msgid "Shortcuts"
-msgstr ""
+msgstr "단축키"
 
-#: prefs.js:207
+#: prefs.js:179
+msgid "Search"
+msgstr "검색"
+
+#: prefs.js:244
 msgid "Icon"
 msgstr "아이콘"
 
-#: prefs.js:208
+#: prefs.js:245
 msgid "Clipboard Content"
 msgstr "클립보드 내용"
 
-#: prefs.js:209
+#: prefs.js:246
 msgid "Both"
-msgstr ""
+msgstr "둘 다"
 
-#: prefs.js:210
+#: prefs.js:247
 msgid "Neither"
-msgstr ""
+msgstr "없음"
 
-#: prefs.js:221
+#: prefs.js:258
 msgid "Toggle the menu"
-msgstr ""
+msgstr "메뉴 전환"
 
-#: prefs.js:223
+#: prefs.js:260
 msgid "Previous entry"
-msgstr ""
+msgstr "이전 항목"
 
-#: prefs.js:224
+#: prefs.js:261
 msgid "Next entry"
-msgstr ""
+msgstr "다음 항목"
 
-#: prefs.js:229
+#: prefs.js:266
 msgid "Enable shortcuts"
-msgstr ""
+msgstr "단축키 활성화"
 
-#: prefs.js:254
+#: prefs.js:291
 msgid "Disabled"
-msgstr ""
+msgstr "비활성화"
 
-#: prefs.js:263
+#: prefs.js:300
 msgid "Enter shortcut"
-msgstr ""
+msgstr "단축키 입력"
 
-#: prefs.js:345
+#: prefs.js:387
 msgid "Window class name, e.g. \"KeePassXC\""
-msgstr ""
+msgstr "창 클래스 이름, 예: \"KeePassXC\""
+
+#: prefs.js:399
+msgid "Choose from installed applications"
+msgstr "설치된 앱에서 선택"
+
+#: prefs.js:416
+msgid "Search applications..."
+msgstr "앱 검색..."
